@@ -14,4 +14,4 @@ Functions: version | [blank input] for nano | note / journal / save | search | p
 
 *Each session automatically saves to the single text file "DESTINY-logs.txt"
 
-WEB-APP : https://akiraliwanag.pyscriptapps.com/destiny/latest Destiny.nano : https://nanodesks.github.io
+WEB-APP : https://akiraliwanag.pyscriptapps.com/destiny/latest Destiny.nano : https://nanodesks.github.io @USVirtualUni : https://x.com/USVirtualUni
