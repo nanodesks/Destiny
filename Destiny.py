@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> Outbeat Produce: Destiny-3.3.3 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> Outbeat Produce: Destiny-4.0.1 by A.A.P.L. +Indicative: @USVirtualUni"
     ct = datetime.datetime.now()
     print(title, ct)
     print(title, ct, file=z)
