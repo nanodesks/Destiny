@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-5.2.2 by A.A.P.L. +Indicative: @USVirtualUni + @_Kalayaan2000"
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-5.2.5 by A.A.P.L. +Indicative: @USVirtualUni + @_Kalayaan2000"
     ct = datetime.datetime.now()
     print(title, ct)
     print(title, ct, file=z)
@@ -76,6 +76,12 @@ def profile():
     print()
     print(file=z)
     atag()
+    print()
+    print(file=z)
+    earth_science()
+    print()
+    print(file=z)
+    draw_card()
     print()
     print(file=z)
     stats()
