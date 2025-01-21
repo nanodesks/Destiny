@@ -12,6 +12,8 @@ you must have Python 3 installed then run this command in your terminal:
 
 Functions: version | [blank input] for nano | profile | note / journal / save | search | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, dhammapada, skate, art, give alms, radio, hack, message [lh], brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, archery, color key, doodling, BUMP, MA, Magic, ascii, zen melody, monopoly, light incense, stats, prayer, progress, collections, football, c, map, search, print time, entry, posting, koran, heBrews, Medicals (M), Clearance, MiCasa, stuff, worship, Earth Science (SCI), value, psychology (psyc), Patient Simu, biology (B), legal terms (Law), the heart sutra, License, police (prad), climb, chemistry (ch), weapon start (wstart), teletubby, (ai) auto-mat [AAM], {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, [ID / IDC], [echo], monitor-start [mstart], change username [username/user], [fuzz], message scan [scan], monitor-search [msearch], tag / atag, acad-monitor (astart), acad-search [asearch], oscillator [oscill], amror (game), amror-search [amsearch]
 
+Indicative: @USVirtualUni && © Medicine, Computable (N_2025)
+
 *Each session automatically saves to the single text file "DESTINY-logs.txt"
 
 WEB-APP : https://akiraliwanag.pyscriptapps.com/destiny/latest Destiny.nano : https://nanodesks.github.io @USVirtualUni : https://x.com/USVirtualUni
