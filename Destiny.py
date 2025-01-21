@@ -16,10 +16,13 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-5.2.5 by A.A.P.L. +Indicative: @USVirtualUni + @_Kalayaan2000"
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-5.3.1 by A.A.P.L."
+    title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
-    print(title, ct)
-    print(title, ct, file=z)
+    print(title)
+    print(title2, ct)
+    print(title, file=z)
+    print(title2, ct, file=z)
     print()
     print(file=z)
 version()
@@ -1721,6 +1724,7 @@ def asciii():
     pr10 = (round(random.random()*99999999999999999999999999999999999999999))
     pr11 = (round(random.random()*99999999999999999999999999999999999999999))
     pr12 = (round(random.random()*99999999999999999999999999999999999999999))
+    print()
     print(pr1)
     print(pr2)
     print(pr3)
@@ -1733,6 +1737,7 @@ def asciii():
     print(pr10)
     print(pr11)
     print(pr12)
+    print(file=z)
     print(pr1, file=z)
     print(pr2, file=z)
     print(pr3, file=z)
