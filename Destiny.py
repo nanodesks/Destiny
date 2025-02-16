@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-6.2.7 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-6.2.8 by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -1717,7 +1717,8 @@ def message():
             random1 = random.choice(string.ascii_letters)
             random2 = random.choice(string.ascii_letters)
             random3 = random.choice(string.ascii_letters)
-            letters = [random1, random2, random3]
+            random4 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3, random4]
             random.shuffle(letters)
             return letters
         random_letters = generate_random_letters()
@@ -1725,11 +1726,12 @@ def message():
         print()
         print(file=z)
         nano = (diction)
+        sitch  = (round(random.random()*9999,4))
         lokalhost = "LOKALHOST: "
         chat = random.sample(nano, random.randint(0,5))
         ct = datetime.datetime.now()
-        print(lokalhost, random_letters, chat, ct)
-        print(usr, lokalhost, random_letters, chat, ct, file=z)
+        print(lokalhost, random_letters, sitch, chat, ct)
+        print(usr, lokalhost, random_letters, sitch, chat, ct, file=z)
 
 def souls():
     nano = (diction)
@@ -2129,8 +2131,8 @@ def monitor_start():
             random1 = random.choice(string.ascii_letters)
             random2 = random.choice(string.ascii_letters)
             random3 = random.choice(string.ascii_letters)
-            letters = [random1, random2, random3]
-            random.shuffle(letters)
+            random4 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3, random4]
             return letters
         random_letters = generate_random_letters()
         sitch  = (round(random.random()*9999,4))
@@ -2169,7 +2171,8 @@ def acad_monitor():
             random1 = random.choice(string.ascii_letters)
             random2 = random.choice(string.ascii_letters)
             random3 = random.choice(string.ascii_letters)
-            letters = [random1, random2, random3]
+            random4 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3, random4]
             random.shuffle(letters)
             return letters
         random_letters = generate_random_letters()
@@ -2222,7 +2225,8 @@ def msgs():
                     random1 = random.choice(string.ascii_letters)
                     random2 = random.choice(string.ascii_letters)
                     random3 = random.choice(string.ascii_letters)
-                    letters = [random1, random2, random3]
+                    random4 = random.choice(string.ascii_letters)
+                    letters = [random1, random2, random3, random4]
                     random.shuffle(letters)
                     return letters
                 random_letters = generate_random_letters()
@@ -2327,7 +2331,8 @@ def tag():
             random1 = random.choice(string.ascii_letters)
             random2 = random.choice(string.ascii_letters)
             random3 = random.choice(string.ascii_letters)
-            letters = [random1, random2, random3]
+            random4 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3, random4]
             random.shuffle(letters)
             return letters
         random_letters = generate_random_letters()
@@ -2359,7 +2364,8 @@ def atag():
             random1 = random.choice(string.ascii_letters)
             random2 = random.choice(string.ascii_letters)
             random3 = random.choice(string.ascii_letters)
-            letters = [random1, random2, random3]
+            random4 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3, random4]
             random.shuffle(letters)
             return letters
         random_letters = generate_random_letters()
@@ -2622,7 +2628,8 @@ def amror():
             random1 = random.choice(string.ascii_letters)
             random2 = random.choice(string.ascii_letters)
             random3 = random.choice(string.ascii_letters)
-            letters = [random1, random2, random3]
+            random4 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3, random4]
             random.shuffle(letters)
             return letters
         random_letters = generate_random_letters()
