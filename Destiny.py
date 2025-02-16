@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-6.2.3 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-6.2.7 by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -2113,6 +2113,7 @@ def weapon_start():
         threading.Thread(target=call_random_function).start()
 
 def monitor_start():
+    maroon = "^m^"
     nano = (diction)
     m = open("monitor-logs.txt", "a", buffering=1)
     ct = datetime.datetime.now()
@@ -2134,8 +2135,8 @@ def monitor_start():
         random_letters = generate_random_letters()
         sitch  = (round(random.random()*9999,4))
         kchat = random.sample(nano, random.randint(0,7))
-        print(random_letters, sitch, kchat, ctm)
-        print(random_letters, sitch, kchat, ctm, file=m)
+        print(maroon, random_letters, sitch, kchat, ctm)
+        print(maroon, random_letters, sitch, kchat, ctm, file=m)
         print()
         print(file=m)
     
@@ -2151,6 +2152,7 @@ def monitor_start():
         threading.Thread(target=call_random_function).start()
 
 def acad_monitor():
+    maroon = "^m^"
     nano = (diction)
     acad = (acadlist)
     a = open("a-monitor-logs.txt", "a", buffering=1)
@@ -2174,8 +2176,8 @@ def acad_monitor():
         sitch  = (round(random.random()*9999,4))
         kchat = random.sample(nano, random.randint(0,7))
         kchat2 = random.sample(acad, random.randint(0,7))
-        print(random_letters, sitch, kchat2, kchat, ctm)
-        print(random_letters, sitch, kchat2, kchat, ctm, file=a)
+        print(maroon, random_letters, sitch, kchat2, kchat, ctm)
+        print(maroon, random_letters, sitch, kchat2, kchat, ctm, file=a)
         print("_______________________________________")
         print("_______________________________________", file=a)
         print()
@@ -2614,6 +2616,7 @@ def amror():
                     print(file=g)
 
     def random_function2():
+        maroon = "^m^"
         ctm = datetime.datetime.now()
         def generate_random_letters():
             random1 = random.choice(string.ascii_letters)
@@ -2625,8 +2628,8 @@ def amror():
         random_letters = generate_random_letters()
         sitch  = (round(random.random()*9999,4))
         kchat = random.sample(nano, random.randint(0,7))
-        print(random_letters, sitch, kchat, ctm)
-        print(random_letters, sitch, kchat, ctm, file=g)
+        print(maroon, random_letters, sitch, kchat, ctm)
+        print(maroon, random_letters, sitch, kchat, ctm, file=g)
         print()
         print(file=g)
     
