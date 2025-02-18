@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-6.2.8 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-7.0.1 by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -55,8 +55,11 @@ acadlist = ["inconsistency", "analyse", "analysis", "analyst", "analytic", "anal
 
 
 def commands():
-    print(" version | [blank input] for nano | profile | note / journal / save | search | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, dhammapada, skate, art, give alms, radio, hack, message [lh], brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, archery, color key, doodling, BUMP, MA, Magic, ascii, zen melody, monopoly, light incense, stats, prayer, progress, collections, football, c, map, print time, entry, posting, koran, heBrews, Medicals (M), Clearance, MiCasa, stuff, worship, Earth Science (SCI), value, psychology (psyc), Patient Simu, biology (B), legal terms (Law), the heart sutra, License, police (prad), climb, chemistry (ch), weapon start [wstart], teletubby, (ai) auto-mat [AAM], {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, [ID / IDC], [echo], monitor-start [mstart], change username [username/user], [fuzz], message-scan [scan], monitor-search [msearch], tag / atag, acad-monitor (astart), acad-search [asearch], oscillator [oscill], amror (game), amror-search [amsearch], herbs/herbals, degree/major")
-
+    print(" version | [blank input] for nano | profile | note / journal / save | search")
+    print()
+    print(" | message [lh], [echo], [fuzz], light incense, prayer, dhammapada, ascii, value, tag / atag, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], message-scan [scan], Medicals (M), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major")
+    print()
+    print(" | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, skate, art, give alms, radio, hack, brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, archery, color key, doodling, BUMP, MA, Magic, zen melody, monopoly, stats, progress, collections, football, c, map, entry, posting, koran, heBrews, Clearance, MiCasa, stuff, worship, Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), legal terms (Law), License, police (prad), climb, chemistry (ch), teletubby, {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, monitor-search [msearch], acad-search [asearch], amror (game), amror-search [amsearch]")
 def print_time():
     t_time = datetime.datetime.now()
     l_time = "Time: "
@@ -1811,6 +1814,22 @@ def asciii():
     print(pr10, file=z)
     print(pr11, file=z)
     print(pr12, file=z)
+    print()
+    print(file=z)
+    ctm = datetime.datetime.now()
+    def generate_random_letters():
+        random1 = random.choice(string.ascii_letters)
+        random2 = random.choice(string.ascii_letters)
+        random3 = random.choice(string.ascii_letters)
+        random4 = random.choice(string.ascii_letters)
+        letters = [random1, random2, random3, random4]
+        random.shuffle(letters)
+        return letters
+    random_letters = generate_random_letters()
+    sitch  = (round(random.random()*9999,4))
+    asc = "ascii:"
+    print(asc, usr, random_letters, sitch, ctm)
+    print(asc, usr, random_letters, sitch, ctm, file=z)
 
 def mp3():
     print("You queue five tracks from an mp3 player that you found on the train...")
