@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-7.0.1 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-7.0.2 by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -1713,8 +1713,8 @@ def message():
             break
     number
     lh = "lh: "
-    print(lh + "" + "$" + "" + usr, chat)
-    print(lh + "" + "$" + "" + usr, chat, file=z)
+    print(lh + "" + "$" + "" + " " + "" + usr, chat)
+    print(lh + "" + "$" + "" + " " + "" + usr, chat, file=z)
     for _ in range(number):
         def generate_random_letters():
             random1 = random.choice(string.ascii_letters)
