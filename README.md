@@ -10,7 +10,12 @@ you must have Python 3 installed then run this command in your terminal:
 
 "python3 Destiny.py" (you must be in the same folder as the Destiny.py file)
 
-Functions: version | [blank input] for nano | profile | note / journal / save | search | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, dhammapada, skate, art, give alms, radio, hack, message [lh], brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, archery, color key, doodling, BUMP, MA, Magic, ascii, zen melody, monopoly, light incense, stats, prayer, progress, collections, football, c, map, search, print time, entry, posting, koran, heBrews, Medicals (M), Clearance, MiCasa, stuff, worship, Earth Science (SCI), value, psychology (psyc), Patient Simu, biology (B), legal terms (Law), the heart sutra, License, police (prad), climb, chemistry (ch), weapon start (wstart), teletubby, (ai) auto-mat [AAM], {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, [ID / IDC], [echo], monitor-start [mstart], change username [username/user], [fuzz], message scan [scan], monitor-search [msearch], tag / atag, acad-monitor (astart), acad-search [asearch], oscillator [oscill], amror (game), amror-search [amsearch], herbs/herbals, degree/major
+Functions: 
+ version | [blank input] for nano | profile | note / journal / save | search
+
+ | message [lh], [echo], [fuzz], light incense, prayer, dhammapada, ascii, value, tag / atag, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], message-scan [scan], Medicals (M), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI]
+
+ | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, skate, art, give alms, radio, hack, brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, archery, color key, doodling, BUMP, MA, Magic, zen melody, monopoly, stats, progress, collections, football, c, map, entry, posting, koran, heBrews, Clearance, MiCasa, stuff, worship, Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), legal terms (Law), License, police (prad), climb, chemistry (ch), teletubby, {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, monitor-search [msearch], acad-search [asearch], amror (game), amror-search [amsearch]
 
 Indicative: @USVirtualUni && © Medicine, Computable (N_2025)
 
