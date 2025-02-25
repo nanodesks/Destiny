@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-7.0.2 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-7.2.2 by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -2155,7 +2155,7 @@ def monitor_start():
             return letters
         random_letters = generate_random_letters()
         sitch  = (round(random.random()*9999,4))
-        kchat = random.sample(nano, random.randint(0,7))
+        kchat = random.sample(nano, random.randint(1,7))
         print(maroon, random_letters, sitch, kchat, ctm)
         print(maroon, random_letters, sitch, kchat, ctm, file=m)
         print()
@@ -2196,8 +2196,8 @@ def acad_monitor():
             return letters
         random_letters = generate_random_letters()
         sitch  = (round(random.random()*9999,4))
-        kchat = random.sample(nano, random.randint(0,7))
-        kchat2 = random.sample(acad, random.randint(0,7))
+        kchat = random.sample(nano, random.randint(1,7))
+        kchat2 = random.sample(acad, random.randint(1,7))
         print(maroon, random_letters, sitch, kchat2, kchat, ctm)
         print(maroon, random_letters, sitch, kchat2, kchat, ctm, file=a)
         print("_______________________________________")
@@ -2356,7 +2356,7 @@ def tag():
             return letters
         random_letters = generate_random_letters()
         sitch  = (round(random.random()*9999,4))
-        kchat = random.sample(nano, random.randint(0,7))
+        kchat = random.sample(nano, random.randint(1,7))
         print()
         print(file=z)
         print(tag, rtag, random_letters, sitch, kchat, ctm)
@@ -2389,8 +2389,8 @@ def atag():
             return letters
         random_letters = generate_random_letters()
         sitch  = (round(random.random()*9999,4))
-        kchat = random.sample(nano, random.randint(0,8))
-        kchat2 = random.sample(acad, random.randint(0,7))
+        kchat = random.sample(nano, random.randint(1,8))
+        kchat2 = random.sample(acad, random.randint(1,7))
         print()
         print(file=z)
         print(tag, rtag, random_letters, sitch, kchat2, kchat, ctm)
