@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-8.0.1.1 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-8.1.0.2 by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -57,9 +57,9 @@ acadlist = ["inconsistency", "analyse", "analysis", "analyst", "analytic", "anal
 def commands():
     print(" version | [blank input] for nano | profile | note / journal / save | search")
     print()
-    print(" | message [lh], [echo], [fuzz], light incense, prayer, dhammapada, ascii, value, tag / atag, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], message-scan [scan], Medicals (M), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI], [frames]")
+    print(" | message [lh], [echo], [fuzz], light incense, prayer, dhammapada, ascii, archery, value, tag / atag, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], message-scan [scan], Medicals (M), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI], frames [fps], frames search [fsearch]")
     print()
-    print(" | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, skate, art, give alms, radio, hack, brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, archery, color key, doodling, BUMP, MA, Magic, zen melody, monopoly, stats, progress, collections, football, c, map, entry, posting, koran, heBrews, Clearance, MiCasa, stuff, worship, Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), legal terms (Law), License, police (prad), climb, chemistry (ch), teletubby, {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, monitor-search [msearch], acad-search [asearch], amror (game), amror-search [amsearch]")
+    print(" | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, skate, art, give alms, radio, hack, brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, color key, doodling, BUMP, MA, Magic, zen melody, monopoly, stats, progress, collections, football, c, map, entry, posting, koran, heBrews, Clearance, MiCasa, stuff, worship, Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), legal terms (Law), License, police (prad), climb, chemistry (ch), teletubby, {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, monitor-search [msearch], acad-search [asearch], amror (game), amror-search [amsearch]")
 def print_time():
     t_time = datetime.datetime.now()
     l_time = "Time: "
@@ -2495,7 +2495,7 @@ def MAI():
                     print(usr, random_letters, sitch, kchat2, kchat, ctm, file=z)
                     print()
                     print(file=z)
-                    time.sleep(.5)
+                    time.sleep(4.2)
         if True:
             integer = (round(random.random()*25))
             if integer > 15:
@@ -2559,6 +2559,7 @@ def MAI():
                         time.sleep(.5)
 
 def frames():
+    b = open("D-frames-logs.txt", "a", buffering=1)
     while True:
         try:
             number = int(input("Indicate number of (frames) results: "))
@@ -2569,8 +2570,25 @@ def frames():
             break
     number
     fps
+    name = input("frames name: ")
     for _ in range(number):
         time.sleep(fps)
+        ctm = datetime.datetime.now()
+        def generate_random_letters():
+            random1 = random.choice(string.ascii_letters)
+            random2 = random.choice(string.ascii_letters)
+            random3 = random.choice(string.ascii_letters)
+            random4 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3, random4]
+            random.shuffle(letters)
+            return letters
+        random_letters = generate_random_letters()
+        sitch  = (round(random.random()*9999,4))
+        asc = "frames:"
+        print()
+        print(file=b)
+        print(asc, usr, name, random_letters, sitch, ctm)
+        print(asc, usr, name, random_letters, sitch, ctm, file=b)
         pr1 = (round(random.random()*99999999999999999999999999999999999999999))
         pr2 = (round(random.random()*99999999999999999999999999999999999999999))
         pr3 = (round(random.random()*99999999999999999999999999999999999999999))
@@ -2596,39 +2614,50 @@ def frames():
         print(pr10)
         print(pr11)
         print(pr12)
-        print(file=z)
-        print(pr1, file=z)
-        print(pr2, file=z)
-        print(pr3, file=z)
-        print(pr4, file=z)
-        print(pr5, file=z)
-        print(pr6, file=z)
-        print(pr7, file=z)
-        print(pr8, file=z)
-        print(pr9, file=z)
-        print(pr10, file=z)
-        print(pr11, file=z)
-        print(pr12, file=z)
+        print(file=b)
+        print(pr1, file=b)
+        print(pr2, file=b)
+        print(pr3, file=b)
+        print(pr4, file=b)
+        print(pr5, file=b)
+        print(pr6, file=b)
+        print(pr7, file=b)
+        print(pr8, file=b)
+        print(pr9, file=b)
+        print(pr10, file=b)
+        print(pr11, file=b)
+        print(pr12, file=b)
         print()
-        print(file=z)
-        ctm = datetime.datetime.now()
-        def generate_random_letters():
-            random1 = random.choice(string.ascii_letters)
-            random2 = random.choice(string.ascii_letters)
-            random3 = random.choice(string.ascii_letters)
-            random4 = random.choice(string.ascii_letters)
-            letters = [random1, random2, random3, random4]
-            random.shuffle(letters)
-            return letters
-        random_letters = generate_random_letters()
-        sitch  = (round(random.random()*9999,4))
-        asc = "frames:"
-        print()
-        print(file=z)
-        print(asc, usr, random_letters, sitch, ctm)
-        print(asc, usr, random_letters, sitch, ctm, file=z)
-        print()
-        print(file=z)
+        print(file=b)
+
+def fsearch():
+    zen = input("(frames) search: ")
+    while True:
+        try:
+            fps = float(input("Indicate speed in (halfed) seconds: "))
+        except ValueError:
+            print("Invalid value")
+        else:
+            break
+    print()
+    try:
+        with open(r"D-frames-logs.txt", 'r') as fp:
+            for line_no, line in enumerate(fp):
+                if zen in line:
+                    time.sleep(fps)
+                    print(line.strip())
+                    fp_temp = open(r"D-frames-logs.txt", 'r')
+                    count = 0
+                    for temp_line_no, temp_line in enumerate(fp_temp):
+                        if temp_line_no > line_no and count < 14:
+                            print(temp_line.strip())
+                            count += 1
+                    fp_temp.close()
+                    print()
+    except FileNotFoundError:
+        print("Error: File 'D-frames-logs.txt' not found.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def oscillator():
     def random_function():
@@ -3233,8 +3262,11 @@ def choice():
         if choice == "MedProc" or choice == "medproc" or choice == "MedProc AI" or choice == "medproc AI" or choice == "medproc ai" or choice == "MAI" or choice == "Mai":
             MAI()
 
-        if choice == "frames":
+        if choice == "frames" or choice == "fps":
             frames()
+
+        if choice == "frames search" or choice == "fsearch":
+            fsearch()
 
         if choice == "oscillator" or choice == "oscillate" or choice == "oscill":
             oscillator()
@@ -3252,6 +3284,8 @@ while chooseAgain:
 chooseAgain = input()
 z.close()
 m.close()
+a.close()
+b.close()
 
 
 
