@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-8.1.0.2 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-8.2.0.1 by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -57,7 +57,7 @@ acadlist = ["inconsistency", "analyse", "analysis", "analyst", "analytic", "anal
 def commands():
     print(" version | [blank input] for nano | profile | note / journal / save | search")
     print()
-    print(" | message [lh], [echo], [fuzz], light incense, prayer, dhammapada, ascii, archery, value, tag / atag, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], message-scan [scan], Medicals (M), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI], frames [fps], frames search [fsearch]")
+    print(" | message [lh], [echo], [fuzz], light incense, prayer, dhammapada, ascii, ascii search [ascsearch/asc], archery, value, tag / atag, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], message-scan [scan], Medicals (M), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI], frames [fps], frames search [fsearch]")
     print()
     print(" | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, skate, art, give alms, radio, hack, brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, color key, doodling, BUMP, MA, Magic, zen melody, monopoly, stats, progress, collections, football, c, map, entry, posting, koran, heBrews, Clearance, MiCasa, stuff, worship, Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), legal terms (Law), License, police (prad), climb, chemistry (ch), teletubby, {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, monitor-search [msearch], acad-search [asearch], amror (game), amror-search [amsearch]")
 def print_time():
@@ -1776,6 +1776,22 @@ def c():
         print(usr, c, kchatz, kchat, file=z)
 
 def asciii():
+    print()
+    print(file=z)
+    ctm = datetime.datetime.now()
+    def generate_random_letters():
+        random1 = random.choice(string.ascii_letters)
+        random2 = random.choice(string.ascii_letters)
+        random3 = random.choice(string.ascii_letters)
+        random4 = random.choice(string.ascii_letters)
+        letters = [random1, random2, random3, random4]
+        random.shuffle(letters)
+        return letters
+    random_letters = generate_random_letters()
+    sitch  = (round(random.random()*9999,4))
+    asc = "ascii:"
+    print(asc, usr, random_letters, sitch, ctm)
+    print(asc, usr, random_letters, sitch, ctm, file=z)
     pr1 = (round(random.random()*99999999999999999999999999999999999999999))
     pr2 = (round(random.random()*99999999999999999999999999999999999999999))
     pr3 = (round(random.random()*99999999999999999999999999999999999999999))
@@ -1814,22 +1830,27 @@ def asciii():
     print(pr10, file=z)
     print(pr11, file=z)
     print(pr12, file=z)
+
+def ascsearch():
+    zen = input("(ascii) search: ")
     print()
-    print(file=z)
-    ctm = datetime.datetime.now()
-    def generate_random_letters():
-        random1 = random.choice(string.ascii_letters)
-        random2 = random.choice(string.ascii_letters)
-        random3 = random.choice(string.ascii_letters)
-        random4 = random.choice(string.ascii_letters)
-        letters = [random1, random2, random3, random4]
-        random.shuffle(letters)
-        return letters
-    random_letters = generate_random_letters()
-    sitch  = (round(random.random()*9999,4))
-    asc = "ascii:"
-    print(asc, usr, random_letters, sitch, ctm)
-    print(asc, usr, random_letters, sitch, ctm, file=z)
+    try:
+        with open(r"DESTINY-logs.txt", 'r') as fp:
+            for line_no, line in enumerate(fp):
+                if zen in line:
+                    print(line.strip())
+                    fp_temp = open(r"DESTINY-logs.txt", 'r')
+                    count = 0
+                    for temp_line_no, temp_line in enumerate(fp_temp):
+                        if temp_line_no > line_no and count < 14:
+                            print(temp_line.strip())
+                            count += 1
+                    fp_temp.close()
+                    print()
+    except FileNotFoundError:
+        print("Error: File 'DESTINY-logs.txt' not found.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def mp3():
     print("You queue five tracks from an mp3 player that you found on the train...")
@@ -2940,7 +2961,7 @@ def amror():
 
 def choice():
     choice = ''
-    while choice !='pray' and choice !='slot' and choice !='search for items' and choice !='surf' and choice !='sleep' and choice !='eat' and choice !='meditate' and choice !='find coins' and choice !='draw card' and choice !='fly' and choice !='drink coffee' and choice !='drink tea' and choice !='surf' and choice !='dhammapada' and choice !='skate' and choice !='art' and choice !='give alms' and choice !='radio' and choice !='hack' and choice !='message' and choice !='brawl' and choice !='souls'and choice !='hipster tarot' and choice !='mp3' and choice !='spar' and choice !='train' and choice !='rest' and choice !='psalms' and choice !='haiku' and choice !='muslim prayer' and choice !='karate' and choice !='koans' and choice !='equips' and choice !='rpg' and choice !='archery' and choice !='color key' and choice !='doodling' and choice !='BUMP' and choice !='MA' and choice !='Magic' and choice !='commands' and choice !='ascii' and choice !='zen melody' and choice !='monopoly' and choice !='light incense' and choice  !='stats' and choice !='prayer' and choice !='progress' and choice !='collections' and choice !='football' and choice !='c' and choice !='map' and choice !='search' and choice !='print time' and choice !='entry' and choice !='posting' and choice !='koran' and choice !='heBrews' and choice !='Medicals' and choice !='M' and choice !='Clearance' and choice !='MiCasa' and choice !='stuff' and choice !='worship' and choice !='Earth Science' and choice !='SCI' and choice !='value' and choice !='psychology' and choice !='psyc' and choice !='Patient Simu' and choice !='biology' and choice !='B' and choice !='legal terms' and choice !='Law' and choice !='the heart sutra' and choice !='License' and choice !='police' and choice !='prad' and choice !='climb' and choice !='chemistry' and choice !='ch' and choice !='weapon start' and choice !='wstart' and choice !='teletubby' and choice !='note' and choice !='save' and choice !='journal' and choice !='version' and choice !='ai' and choice !='auto-mat' and choice !='AAM' and choice !='ID' and choice !='IDC' and choice !='echo' and choice !='monitor-start' and choice !='mstart' and choice !='change username' and choice !='username' and choice !='user' and choice !='fuzz' and choice !='message-scan' and choice !='scan' and choice !='monitor-search' and choice !='msearch' and choice !='tag' and choice !='atag' and choice !='a-tag' and choice !='acad-monitor' and choice !='astart' and choice !='acad-search' and choice !='asearch' and choice !='oscillator' and choice !='oscillate' and choice !='oscill' and choice !='amror' and choice !='game' and choice !='amsearch' and choice !='amror-search' and choice !='amror search' and choice !='profile' and choice !='Profile' and choice !='herbs' and choice !='herbals' and choice !='degree' and choice !='degrees' and choice !='major' and choice !='majors' and choice !='MedProc AI' and choice !='MAI' and choice !='frames':
+    while choice !='pray' and choice !='slot' and choice !='search for items' and choice !='surf' and choice !='sleep' and choice !='eat' and choice !='meditate' and choice !='find coins' and choice !='draw card' and choice !='fly' and choice !='drink coffee' and choice !='drink tea' and choice !='surf' and choice !='dhammapada' and choice !='skate' and choice !='art' and choice !='give alms' and choice !='radio' and choice !='hack' and choice !='message' and choice !='brawl' and choice !='souls'and choice !='hipster tarot' and choice !='mp3' and choice !='spar' and choice !='train' and choice !='rest' and choice !='psalms' and choice !='haiku' and choice !='muslim prayer' and choice !='karate' and choice !='koans' and choice !='equips' and choice !='rpg' and choice !='archery' and choice !='color key' and choice !='doodling' and choice !='BUMP' and choice !='MA' and choice !='Magic' and choice !='commands' and choice !='ascii' and choice !='zen melody' and choice !='monopoly' and choice !='light incense' and choice  !='stats' and choice !='prayer' and choice !='progress' and choice !='collections' and choice !='football' and choice !='c' and choice !='map' and choice !='search' and choice !='print time' and choice !='entry' and choice !='posting' and choice !='koran' and choice !='heBrews' and choice !='Medicals' and choice !='M' and choice !='Clearance' and choice !='MiCasa' and choice !='stuff' and choice !='worship' and choice !='Earth Science' and choice !='SCI' and choice !='value' and choice !='psychology' and choice !='psyc' and choice !='Patient Simu' and choice !='biology' and choice !='B' and choice !='legal terms' and choice !='Law' and choice !='the heart sutra' and choice !='License' and choice !='police' and choice !='prad' and choice !='climb' and choice !='chemistry' and choice !='ch' and choice !='weapon start' and choice !='wstart' and choice !='teletubby' and choice !='note' and choice !='save' and choice !='journal' and choice !='version' and choice !='ai' and choice !='auto-mat' and choice !='AAM' and choice !='ID' and choice !='IDC' and choice !='echo' and choice !='monitor-start' and choice !='mstart' and choice !='change username' and choice !='username' and choice !='user' and choice !='fuzz' and choice !='message-scan' and choice !='scan' and choice !='monitor-search' and choice !='msearch' and choice !='tag' and choice !='atag' and choice !='a-tag' and choice !='acad-monitor' and choice !='astart' and choice !='acad-search' and choice !='asearch' and choice !='oscillator' and choice !='oscillate' and choice !='oscill' and choice !='amror' and choice !='game' and choice !='amsearch' and choice !='amror-search' and choice !='amror search' and choice !='profile' and choice !='Profile' and choice !='herbs' and choice !='herbals' and choice !='degree' and choice !='degrees' and choice !='major' and choice !='majors' and choice !='MedProc AI' and choice !='MAI' and choice !='frames' and choice !='fsearch' and choice !='ascsearch':
         print()
         print(file=z)
         choice = input(usr)
@@ -3192,6 +3213,9 @@ def choice():
 
         if choice == "ascii":
             asciii()
+
+        if choice == "ascii search" or choice == "ascsearch" or choice == "asc search" or choice =="asc":
+            ascsearch()
 
         if choice == "mp3":
             mp3()
