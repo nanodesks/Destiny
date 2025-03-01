@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-8.2.0.1 by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. Outbeat Produce: Destiny-8.2.0.4 by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -2430,6 +2430,22 @@ def MAI():
     time.sleep(2)
     for _ in range(number):
         time.sleep(1.5)
+        print()
+        print(file=z)
+        ctm = datetime.datetime.now()
+        def generate_random_letters():
+            random1 = random.choice(string.ascii_letters)
+            random2 = random.choice(string.ascii_letters)
+            random3 = random.choice(string.ascii_letters)
+            random4 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3, random4]
+            random.shuffle(letters)
+            return letters
+        random_letters = generate_random_letters()
+        sitch  = (round(random.random()*9999,4))
+        asc = "ascii:"
+        print(asc, usr, random_letters, sitch, ctm)
+        print(asc, usr, random_letters, sitch, ctm, file=z)
         pr1 = (round(random.random()*99999999999999999999999999999999999999999))
         pr2 = (round(random.random()*99999999999999999999999999999999999999999))
         pr3 = (round(random.random()*99999999999999999999999999999999999999999))
@@ -2468,24 +2484,6 @@ def MAI():
         print(pr10, file=z)
         print(pr11, file=z)
         print(pr12, file=z)
-        print()
-        print(file=z)
-        ctm = datetime.datetime.now()
-        def generate_random_letters():
-            random1 = random.choice(string.ascii_letters)
-            random2 = random.choice(string.ascii_letters)
-            random3 = random.choice(string.ascii_letters)
-            random4 = random.choice(string.ascii_letters)
-            letters = [random1, random2, random3, random4]
-            random.shuffle(letters)
-            return letters
-        random_letters = generate_random_letters()
-        sitch  = (round(random.random()*9999,4))
-        asc = "ascii:"
-        print()
-        print(file=z)
-        print(asc, usr, random_letters, sitch, ctm)
-        print(asc, usr, random_letters, sitch, ctm, file=z)
         print()
         print(file=z)
         if True:
