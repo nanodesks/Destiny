@@ -16,7 +16,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-10.0.1.0 'pocket uni-verse' by A.A.P.L."
+    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-10.1.0.0 'pocket uni-verse' by A.A.P.L."
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     ct = datetime.datetime.now()
     print(title, ct)
@@ -675,8 +675,8 @@ def clearance():
 
 def nano():
     dd = (diction)
-    nano = (random.choice(dd), random.choice(dd), random.choice(dd), random.choice(dd))
-    result = random.sample(nano, random.randint(1, 3))
+    nano = (random.choice(dd), random.choice(dd), random.choice(dd), random.choice(dd), random.choice(dd), random.choice(dd))
+    result = random.sample(nano, random.randint(1, 6))
     star = "***"
     print(star, result)
     print(usr, star, result, file=z)
