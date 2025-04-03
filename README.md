@@ -24,4 +24,6 @@ Indicative: @USVirtualUni && © Medicine, Computable (N_2025)
 
 *Each session automatically saves to the single text file "DESTINY-logs.txt"
 
+All Rights Reserved - medicci.ca -
+
 WEB-APP : https://akiraliwanag.pyscriptapps.com/destiny/latest Destiny.nano : https://nanodesks.github.io @USVirtualUni : https://x.com/USVirtualUni
