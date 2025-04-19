@@ -17,7 +17,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-11.2.0.5 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
+    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-11.5.1.0 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     title3 = " All Rights Reserved - Medicci.ca -"
     cdt = datetime.datetime.now()
@@ -118,11 +118,12 @@ acadlist = ["inconsistency", "analyse", "analysis", "analyst", "analytic", "anal
 
 
 def commands():
+    print()
     print(" version | [blank input] for nano | profile | note / journal / save | search")
     print()
-    print(" | message [lh], [echo], [fuzz], alerts, light incense, prayer, dhammapada, message-scan [scan], ascii, ascii search [ascsearch/asc], archery, value, tag / atag, map, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], Medicals (M), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI], frames [fps], frames search [fsearch], police (prad), burner-start [burn], KIOMAI [kiomai], CAI Environments (CAI/GES)"), 
+    print(" | message [lh], [echo], [fuzz], alerts, light incense, prayer, dhammapada, message-scan [scan], ascii, ascii search [ascsearch/asc], archery, value, tag / atag, map, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], Medicals (M), Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), chemistry (ch), legal terms (Law), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI], frames [fps], frames search [fsearch], police (prad), burner-start [burn], KIOMAI [kiomai], CAI Environments (CAI/GES), amror (meditation game), amror-search [amsearch]") 
     print()
-    print(" | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, skate, art, give alms, radio, hack, brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, color key, doodling, BUMP, MA, Magic, zen melody, monopoly, stats, progress, collections, football, c, entry, posting, koran, heBrews, Clearance, MiCasa, stuff, worship, Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), legal terms (Law), License, climb, chemistry (ch), teletubby, {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, monitor-search [msearch], acad-search [asearch], amror (game), amror-search [amsearch]")
+    print(" | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, skate, art, give alms, radio, hack, brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, color key, doodling, BUMP, MA, Magic, zen melody, monopoly, stats, progress, collections, football, c, entry, posting, koran, heBrews, Clearance, MiCasa, stuff, worship, License, climb, teletubby, {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, monitor-search [msearch], acad-search [asearch]")
 
 def GES():
     print()
@@ -267,8 +268,8 @@ def asearch():
                 print('Line:', line)
 
 def amsearch():
-    folder = input("folder (foldername followed by a slash or leave blank): ")
     zen = input("amror-monitor-search: ")
+    folder = input("folder (foldername followed by a slash or leave blank): ")
     print()
     print(file=z)
     with open(folder + "" + r"amror-logs.txt", 'r') as fp:
@@ -3007,31 +3008,64 @@ def amror():
             integer = (round(random.random()*25))
             if integer > 20:
                 if random.choice([True, False]):
-                    paths = ["You level up", "You level up", "You level up", "You walk in a field", "You encounter an animal", "You encounter a monster", "You encounter an enemy", "You encounter a friend", "You encounter an ally", "You enter an alley", "It is night time", "The sun just rised", "It is dawn", "It is dusk", "You enter the university", "You sit down on your computer", "You just chill", "You chill in a cafe", "You feel sleepy", "You are hungry", "You walk on", "You run straight", "You run in loops", "You are tired", "You are bullied", "You are sent to the hospital", "You go on a roadtrip", "You hike", "You mine", "You are out of money", "You just earned your salary", "You spend your time waiting", "You just nearly died", "You do your assignment", "You paint", "You hum", "You rap", "You sing", "You hear someone singing", "You compose rap", "You compose a classical track", "You feel lonely", "You feel happy", "You feel ecstatic", "You yearn for something", "You feel you should meditate", "You feel you should pray", "You walk in a church", "You walk in a temple", "You walk in a mosque", "You walk in a forest", "You walk in a jungle", "You walk along the road", "You're in the city", "You ride a bus", "You ride a cab", "You take out the trash", "You find a job", "Someone gave you work", "You worship", "You're in transit", "You surf the internet", "You got hacked", "You got scammed", "You exercise", "You were commissioned in the army", "You were commisioned in the police force", "You were commissioned in the airforce", "You were commissioned in the marines", "You have a mission", "You feel inspired", "You feel uninspired", "You feel creative block", "You feel like dancing", "You hear music", "You watch TV", "You hear the radio", "You are fatigued", "You enter war", "You meet someone", "You view film showing schedules", "You browse through courses", "You walk into a market", "You think of getting souvenirs", "You explore the place"]
-                    path = random.sample(paths, 1)
-                    rpg = "rpg: "
-                    print(rpg, path)
-                    print(usr, rpg, path, file=z)
-                    print(usr, rpg, path, file=g)
+                    mic = "home:"
+                    rooms = ["living room", "kitchen", "bedroom", "garden", "patio", "guest room", "garage", "work room", "library", "art room", "meditation room", "bath room", "temple"]
+                    micasa = random.sample(rooms, 1)
+                    ct = datetime.datetime.now()
+                    print(mic, micasa, ct)
+                    print(usr, mic, micasa, ct, file=z)
+                    print(usr, mic, micasa, ct, file=g)
                     print()
                     print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    paths = ["You level up", "You level up", "You level up", "You walk in a field", "You encounter an animal", "You encounter a monster", "You encounter an enemy", "You encounter a friend", "You encounter an ally", "You enter an alley", "It is night time", "The sun just rised", "It is dawn", "It is dusk", "You enter the university", "You sit down on your computer", "You just chill", "You chill in a cafe", "You feel sleepy", "You are hungry", "You walk on", "You run straight", "You run in loops", "You are tired", "You are bullied", "You are sent to the hospital", "You go on a roadtrip", "You hike", "You mine", "You are out of money", "You just earned your salary", "You spend your time waiting", "You just nearly died", "You do your assignment", "You paint", "You hum", "You rap", "You sing", "You hear someone singing", "You compose rap", "You compose a classical track", "You feel lonely", "You feel happy", "You feel ecstatic", "You yearn for something", "You feel you should meditate", "You feel you should pray", "You walk in a church", "You walk in a temple", "You walk in a mosque", "You walk in a forest", "You walk in a jungle", "You walk along the road", "You're in the city", "You ride a bus", "You ride a cab", "You take out the trash", "You find a job", "Someone gave you work", "You worship", "You're in transit", "You surf the internet", "You got hacked", "You got scammed", "You exercise", "You were commissioned in the army", "You were commisioned in the police force", "You were commissioned in the airforce", "You were commissioned in the marines", "You have a mission", "You feel inspired", "You feel uninspired", "You feel creative block", "You feel like dancing", "You hear music", "You watch TV", "You hear the radio", "You are fatigued", "You enter war", "You meet someone", "You view film showing schedules", "You browse through courses", "You walk into a market", "You think of getting souvenirs", "You explore the place"]
+                    path = random.sample(paths, 1)
+                    ct = datetime.datetime.now()
+                    rpg = "rpg: "
+                    print(rpg, path, ct)
+                    print(usr, rpg, path, ct, file=z)
+                    print(usr, rpg, path, ct, file=g)
+                    print()
+                    print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    stu = "stuff:"
+                    stuffd = ["sofa", "tv", "radio", "computer", "tablet", "phone", "refrigerator", "bed", "sink", "oven", "stove", "clock", "refreshments", "snacks", "cookies", "easel", "sketchpad", "laptop", "postcard", "table", "study table", "desk", "kitchen counter", "bible", "dining table", "chair", "gaming chair", "lamp", "light", "fruit", "speaker", "guitar", "piano", "synthesizer", "photo", "painting", "cdj", "vinyl", "electric guitar", "bass guitar", "monitor", "camera", "vinyl player", "gun", "iPod", "cctv", "bike", "car", "window", "door", "sweater", "ps5", "pillow", "blanket", "clothes", "dresser", "safe", "dhammapada", "keyboard", "koran", "paint", "paper", "brush", "tree", "pencil", "spraypaint", "drawing tablet", "drawing", "buddha", "air conditioner", "duster", "walkie", "grass", "mirror", "tools", "pen", "magazine", "book", "carpet", "mat", "zafu", "weed", "kush"]
+                    stuff = (random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd))
+                    stuffs = random.sample(stuff, random.randint(1, 8))
+                    ct = datetime.datetime.now()
+                    print(stu, stuffs, ct)
+                    print(usr, stu, stuffs, ct, file=z)
+                    print(usr, stu, stuffs, ct, file=g)
+                    print()
+                    print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
                 if random.choice([True, False]):
                     print("You go to the airport and board a plane...")
-                    print(usr + "" + " " + "" + "You go to the airport and board a plane...", file=g)
-                    time.sleep(1)
+                    print(usr + "" + " " + "" + "You go to the airport and board a plane...", file=z)
+                    time.sleep(2)
                     print("You arrived in:")
-                    print("You arrived in:", file=g)
+                    print("You arrived in:", file=z)
                     countries = ["Canada", "Sweden", "China", "Beijing", "New York", "California", "L.A.", "San Francisco", "Detroit", "Colorado", "Newark", "New Jersey", "Australia", "Gold Coast", "Thailand", "North Korea", "Pyongyang", "Seoul", "Tokyo", "Osaka", "Japan", "Fujian", "Kyoto", "Manila", "Palawan", "Siargao", "Sultan Kudarat", "Davao", "Sydney", "Poland", "Uzbekistan", "Kyrgystan", "Turkey", "Iraq", "Iran", "Bolivia", "Iceland", "Lithuania", "Greenland", "UK", "France", "Spain", "Rome", "Greece", "Amsterdam", "Netherlands", "Boracay", "Indonesia", "Russia", "Ukraine", "Africa", "Antarctica", "Alaska", "South Carolina", "North Carolina", "Philadelphia", "Brooklyn", "Mexico", "Brazil", "Taiwan", "Burma", "Cambodia", "Vietnam", "India", "Bangladesh", "New Delhi", "Bombay", "Philippines"]
                     country = random.sample(countries, 1)
+                    ct = datetime.datetime.now()
                     fly = "fly: "
-                    print(fly, country)
-                    print(usr, fly, country, file=z)
-                    print(usr, fly, country, file=g)
+                    print(fly, country, ct)
+                    print(usr, fly, country, ct, file=z)
+                    print(usr, fly, country, ct, file=g)
                     print()
                     print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
@@ -3058,12 +3092,106 @@ def amror():
                     print(tidnar)
                     monies = ["Dollars", "Rupies", "Yen", "Pesos", "Pounds", "Coins", "Arcade Coins", "Mickey Mouse Money", "Francs", "Shekels", "Tugriks", "Indian Rupees", "Singapore Dollars", "Rubles", "Dinars", "Yuans", "Bahts", "Afghanis", "Riyals", "Kronas", "Riels", "DDOS attacks", "Botnets", "Credit Card Numbers", "E-mail addresses", "Business Addresses", "Home Addresses", "Passwords", "Mobile Numbers", "Telephone Numbers", "STD", "spits", "garbage", "sickness", "nudes", "hate", "likes"]
                     money = random.sample(monies, 1)
-                    print(money)
+                    ct = datetime.datetime.now()
+                    print(money, ct)
                     hack = "hack:"
-                    print(usr, hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, file=z)
-                    print(usr, hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, file=g)
+                    print(hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, ct)
+                    print(usr, hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, ct, file=z)
+                    print(usr, hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, ct, file=g)
                     print()
                     print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    print("You rolled:")
+                    print("You rolled:", file=z)
+                    time.sleep(1)
+                    dice1 = ["1", "2", "3", "4", "5", "6", "7", "8"]
+                    dice2 = ["1", "2", "3", "4", "5", "6", "7", "8"]
+                    roll1 = random.sample(dice1, 1)
+                    roll2 = random.sample(dice2, 1)
+                    print(roll1)
+                    print(roll1, file=z)
+                    print(roll2)
+                    print(roll2, file=z)
+                    time.sleep(2)
+                    boxes = ["Mediterranean Avenue", "Community Chest", "Baltic Avenue", "INCOME TAX", "Reading Railroad", "Oriental Avenue", "Chance", "Vermont Avenue", "Connecticut Avenue", "Jail", "St. Charles Palace", "Electric Company", "States Avenue", "Virginia Avenue", "Pennsylvania Railroad", "St. James Place", "Community Chest", "Free Parking", "Kentucky Avenue", "Chance", "Indiana Avenue", "Illinois Avenue", "B&O Railroad", "Atlantic Avenue", "Ventnor Avenue", "Water Works", "Marvin Gardens", "GO TO JAIL", "Pacific Avenue", "North Carolina Avenue", "Community Chest", "Pennsylvania Avenue", "Short Line", "Chance", "Park Place", "LUXURY TAX", "Boardwalk"]
+                    box = random.sample(boxes, 1)
+                    print("And landed in =")
+                    print("And landed in =", file=z)
+                    ct = datetime.datetime.now()
+                    monopoly = "monopoly: "
+                    print(monopoly, box, ct)
+                    print(usr, monopoly, roll1, roll2, box, ct, file=z)
+                    print(usr, monopoly, roll1, roll2, box, ct, file=g)
+                    print()
+                    print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    print("You ride your trickboard and did a")
+                    print("You ride your trickboard and did a", file=z)
+                    tricks = ["Backside 180", "Backside 360", "Backside Caballerial", "Backside Half Cab", "Fakie Ollie", "Frontside 180", "Frontside 360", "Frontside Caballerial", "Frontside Half Cab", "Kickturn", "Nollie", "Nollie Backside 180", "Nollie Backside 360", "Nollie Frontside 180", "Nollie Frontside 360", "Ollie", "Ollie North", "Ollie South", "Switch Backside 180", "Switch Backside 360", "Switch Frontside 180", "Switch Frontside 360", "Switch Ollie", "Tic-Tac", "360 Flip", "360 Hardflip", "360 Ollie Heelflip", "360 Ollie Kickflip", "360 Pop Shove-it", "360 Shuvit", "540 Flip", "720 Flip", "Alpha Flip", "Anti Casper Flip", "Backside Bigspin", "Backside Flip", "Backside Half Cab Heelflip", "Backside Half Cab Kickflip", "Backside Heelflip", "Backside Kickflip", "Big Heelflip", "Bigflip", "Biggerflip", "Biggerspin", "Bigspin", "Bubble Flip", "Bullflip", "Caballerial Flip", "Camel Flip", "Casper Flip", "Daydream Flip", "De Comply", "Disco Flip", "Double Heelflip", "Double Kickflip", "Dragon Flip", "Fakie 360 Flip", "Fakie 360 Hardflip", "Fakie Backside Bigspin", "Fakie Backside Pop Shove-it", "Fakie Frontside Bigspin", "Fakie Frontside Pop Shove-it", "Fakie Hardflip", "Fakie Heelflip", "Fakie Inward Heelflip", "Fakie Kickflip", "Fakie Varial Heelflip", "Fakie Varial Kickflip", "Feather Flip", "Fingerflip", "Forward Flip", "Front Foot Impossible", "Frontside 360 Pop Shove it", "Frontside Bigspin", "Frontside Flip", "Frontside Half Cab Heelflip", "Frontside Half Cab Kickflip", "Frontside Heelflip", "Frontside Kickflip", "Frontside Pop Shove-it", "Gazelle Flip", "Gazelle Spin", "Ghetto Bird", "Gingersnap", "Grape Flip", "Half Cab", "Handstand Flip", "Hardflip", "Haslam Flip", "Heelflip", "Hospital Flip", "Illusion Flip", "Impossible", "Inward Heelflip", "Jesus Flip", "Kickback Flip", "Kickflip", "Kiwi Flip", "Laser Flip", "Late Kickflip", "Nerd Flip", "Nightmare Flip", "No Comply", "540", "720", "900", "Airwalk", "Benihana", "Cannonball", "Christ Air", "Crossbone", "Delmar Indy", "Indy", "Indy Grab", "Invert", "Japan Air", "Judo Air", "Madonna", "McTwist", "Melancholy Grab", "Melon", "Method Air", "Mute Air", "Nose Grab", "Rocket Air", "Sal Flip", "Seatbelt Grab", "Stiffy", "Superman Grab", "Varial", "Egg Plant", "Manual", "Nose Manual", "Varial Heelflip", "Varial Kickflip",\
+                 "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", "bail", ]
+                    trick = random.sample(tricks, 1)
+                    ct = datetime.datetime.now()
+                    skate = "skate: "
+                    print(skate, trick, ct)
+                    print(usr, skate, trick, ct, file=z)
+                    print(usr, skate, trick, ct, file=g)
+                    print()
+                    print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    starting = ["in the depths of soul", "in as much as I want", "nevertheless", "coming up with it", "i don't know this", "thinking of it", "thinking of you", "thinking of us", "i never want to but", "carry me all the way", "i am happy", "starting", "i never know how", "as much as i would", "killing me softly", "killing us", "the quietest weather", "gray clouds above", "i see the clear sky", "while the sky is bluest", "i've never been apart", "how would i know", "will i see you again", "it came up to me", "i was surprised", "surprising", "i would", "come to me", "start with this", "a few words", "lenten season is upon us", "i love", "thinking", "stop"]
+                    start = random.sample(starting, 1)
+                    middle = ["i wish i would have", "consider me", "i am looking for food", "while i am clothed", "walking the distance", "i still end up with you", "consider my wish", "halfed tree", "searching", "unsure", "not minding everyone", "listening to music", "on my computer", "typing", "eating", "sleeping", "thinking", "never missing", "stopping", "staring", "resting", "excruciating pain", "this sadness", "while im without", "collecting", "listening", "happiness", "the surf", "inspired", "rocking the music", "travelling", "playing", "while music plays", "stirring things up", "taking a bath", "walking on the shore", "grinding"]
+                    mid = random.sample(middle, 1)
+                    ending = ["i never knew how", "i be at it", "considered everything", "i died", "i slept", "its wrapped", "made a union", "the sky bleeds", "music is spoken", "chilled", "i am spoiled", "this bringeth happiness", "its up to me", "the weather is", "i stay awake", "pillows", "grains", "half of the time", "it ends here", "i take flight", "distance is", "i like this", "forever", "lets meet", "gathered my wits"]
+                    end = random.sample(ending, 1)
+                    ct = datetime.datetime.now()
+                    haiku = "haiku: "
+                    print(haiku, start, mid, end, ct)
+                    print(usr, haiku, start, mid, end, ct, file=z)
+                    print(usr, haiku, start, mid, end, ct, file=g)
+                    print()
+                    print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    print()
+                    print(file=z)
+                    print("You aim your bow..")
+                    print(usr + "" + " " + "" + "You aim your bow..", file=z)
+                    time.sleep(1)
+                    print("You hit:")
+                    print("You hit:", file=z)
+                    num = (round(random.random()*30,3))
+                    print(num)
+                    print(num, file=z)
+                    print("centimeters from the bullseye with")
+                    print("centimeters from the bullseye with", file=z)
+                    raditn = (random.randint(50,100))
+                    print(raditn)
+                    print(raditn, file=z)
+                    ct = datetime.datetime.now()
+                    print("percent accuracy", ct)
+                    print("percent accuracy", ct, file=z)
+                    archery = "archery: "
+                    print(usr, archery, num, raditn, ct, file=z)
+                    print(usr, archery, num, raditn, ct, file=g)
+                    print()
+                    print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
@@ -3076,12 +3204,30 @@ def amror():
                     gate = random.sample(gates, 1)
                     phase = random.sample(phases, 1)
                     rooms = (round(random.random()*102))
+                    ct = datetime.datetime.now()
                     _room = "Room"
-                    print(_entry, gate, phase, _floor, floors, _room, rooms)
-                    print(usr, _entry, gate, phase, _floor, floors, _room, rooms, file=z)
-                    print(usr, _entry, gate, phase, _floor, floors, _room, rooms, file=g)
+                    print(_entry, gate, phase, _floor, floors, _room, rooms, ct)
+                    print(usr, _entry, gate, phase, _floor, floors, _room, rooms, ct, file=z)
+                    print(usr, _entry, gate, phase, _floor, floors, _room, rooms, ct, file=g)
                     print()
                     print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    print("You tune in to the radio and listen to:")
+                    print("You tune in to the radio and listen to:", file=z)
+                    genres = ["Alternative", "Anime", "Blues", "Classical", "Comedy", "Commercials", "Country", "Dance", "Easy Listening", "Electronic", "Enka", "French Pop", "Folk Music", "German Folk", "German Pop", "Fitness and Workout", "Hip-Hop/Rap", "Holiday Music", "Indie Pop", "Industrial", "Inspirational", "Instrumental", "Jazz", "K-Pop", "Karaoke", "Latin", "Metal", "New Age", "Opera", "Pop", "R&B/Soul", "Reggae", "Rock", "Soundtracks", "Spoken Word", "Tex-Mex/Tejano", "Vocal", "World"]
+                    music = random.sample(genres, 1)
+                    ct = datetime.datetime.now()
+                    radio = "radio: "
+                    print(radio, music, ct)
+                    print(usr, radio, music, ct, file=z)
+                    print(usr, radio, music, ct, file=g)
+                    print()
+                    print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
@@ -3118,12 +3264,14 @@ def amror():
                     print(feet, file=z)
                     print()
                     print(file=z)
+                    ct = datetime.datetime.now()
                     equips = "equips: "
-                    print(equips, head, torso, hand, legs, feet)
-                    print(usr, equips, head, torso, hand, legs, feet, file=z)
-                    print(usr, equips, head, torso, hand, legs, feet, file=g)
+                    print(equips, head, torso, hand, legs, feet, ct)
+                    print(usr, equips, head, torso, hand, legs, feet, ct, file=z)
+                    print(usr, equips, head, torso, hand, legs, feet, ct, file=g)
                     print()
                     print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
@@ -3140,24 +3288,48 @@ def amror():
                     print("With A Score Of:")
                     print("With A Score Of:", file=z)
                     randit = (random.randint(50,100))
+                    ct = datetime.datetime.now()
                     print(randit)
                     print(randit, file=z)
-                    print(usr, brawl, action, person, randit, file=z)
-                    print(usr, brawl, action, person, randit, file=g)
+                    print(usr, brawl, action, person, randit, ct, file=z)
+                    print(usr, brawl, action, person, randit, ct, file=g)
                     print()
                     print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
                 if random.choice([True, False]):
-                    print("You start to rest...")
-                    print(usr + "" + " " + "" + "You start to rest...", file=z)
-                    time.sleep(3)
-                    print("You rested")
-                    print(usr + "" + " " + "" + "You rested", file=z)
-                    print(usr + "" + " " + "" + "You rested", file=g)
+                    ct = datetime.datetime.now()
+                    print("You start to rest...", ct)
+                    print(usr + "" + " " + "" + "You start to rest...", ct, file=z)
+                    time.sleep(8)
+                    print("You rested", ct)
+                    print(usr + "" + " " + "" + "You rested", ct, file=z)
+                    print(usr + "" + " " + "" + "You rested", ct, file=g)
                     print()
                     print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    print("You search around...")
+                    print(usr + "" + " " + "" + "You search around...", file=z)
+                    time.sleep(2)
+                    itemd = ["empty bottle", "bottle of wine", "wine glass", "bottle of iced tea", "energy drink", "lemon juice", "pack of green peas", "shirt", "bed", "headphones", "earphones", "blanket", "tablet", "kindle", "pills", "pack of coffee beans", "cup of coffee", "junkfood", "medicine", "spoon", "fork", "Nintendo Switch", "laptop", "mobile phone", "electric fan", "chair", "guitar", "keyboard", "piano", "tv", "monitor", "oil", "hashish", "marijuana", "cigarette", "vape", "pillow", "dog food", "bike", "car", "scooter", "skateboard", "printer", "shards of glass", "garbage", "strips of sleather", "food", "bottle of water", "bible", "Dhammapada", "yoga mat", "helmet", "chewing gum", "vitamins", "shirt", "sweater", "pants", "working pants", "skirt", "underwear", "parachute", "gun", "knife", "sword", "katana", "oatmeal", "chain", "slippers", "shoes", "book", "wires", "credit card", "stove", "oven", "hat", "bucket hat", "baseball cap", "beanie", "hoodie", "necklace", "ring", "gold ring", "diamond ring", "diamond", "diamonds", "painting", "pencil", "ballpoint pen", "sketchpad", "crayon", "box of crayons", "paint", "spray paint", "fruit", "lettuce", "carrot", "watermelon", "orange", "apple", "banana", "pear", "gold", "gold bar", "pistol", "lantern", "lamp", "umbrella", "newspaper", "Sega", "ecstasy", "Nintendo 64", "calculator", "brownies", "pie", "loaf bread", "aviator shades", "shutter shades", "CD", "floppy disk", "mp3 player", "walkman", "cassette", "ticket", "food stub", "ski mask", "spear", "nunchucks", "frying pan", "beans", "charger", "guitar pick", "mic", "digicam", "GoPro", "night vision goggles", "sniper rifle", "DS4 Playstation controller", "CDJ", "Raybans", "smartwatch", "modem", "axe"]
+                    items = (random.choice(itemd), random.choice(itemd))
+                    item = random.sample(items, 2)
+                    ct = datetime.datetime.now()
+                    print("You found:")
+                    print("You found:", file=z)
+                    items = "items: "
+                    print(items, item, ct)
+                    print(usr, items, item, ct, file=z)
+                    print(usr, items, item, ct, file=g)
+                    print()
+                    print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
@@ -3166,56 +3338,96 @@ def amror():
                     action = random.sample(actions, 1)
                     kicks = ["45 kick", "45 kick", "45 kick", "45 kick", "45 kick", "front kick", "stretching kick", "turning-side kick", "turning-side kick", "side kick", "side kick", "punching kick", "axe kick", "axe kick", "full moon kick","full moon kick", "turning-long", "turning-long", "turning-jumping 45 kick", "out-in kick", "in-out kick", "turning-jumping out-in", "roundhouse kick", "roundhouse kick", "roundhouse kick", "turning-jumping roundhouse kick", "punch", "punch", "punch", "punch", "bullet 45 kick", "double 45 kick", "triple 45 kick", "jumping 45 kick", "jumping roundhouse kick", "jumping axe kick", "jumping front kick", "jumping out-in kick", "jumping in-out kick", "jumping side kick", "jumping turning-side kick", "jumping full moon kick"]
                     kick = random.sample(kicks, 1)
+                    ct = datetime.datetime.now()
                     spar = "spar: "
-                    print(spar, action, kick)
-                    print(usr, spar, action, kick, file=z)
-                    print(usr, spar, action, kick, file=g)
+                    print(spar, action, kick, ct)
+                    print(usr, spar, action, kick, ct, file=z)
+                    print(usr, spar, action, kick, ct, file=g)
                     print()
                     print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    color = ["red", "crimson", "maroon", "scarlet", "orange", "amber", "rust", "salmon", "green", "emerald", "lime", "olive", "yellow", "gold", "lemon", "mustard", "blue", "azure", "indigo", "teal", "purple", "lavender", "magenta", "violet", "brown", "beige", "chocolate", "sienna", "gray", "charcoal", "silver", "slate", "black", "ebony", "jet", "onyx", "white", "alabaster", "ivory", "pearl", "pink", "sky blue", "neon green", "neon yellow", "neon orange", "neon blue"]
+                    colors = random.sample(color, 5)
+                    ct = datetime.datetime.now()
+                    colorkey = "color key: "
+                    print(colorkey, colors, ct)
+                    print(usr, colorkey, colors, ct, file=z)
+                    print(usr, colorkey, colors, ct, file=g)
+                    print()
+                    print(file=g)
+
+        if True:
+            integer = (round(random.random()*25))
+            if integer > 20:
+                if random.choice([True, False]):
+                    print("You make a piece in the style of")
+                    print("You make a piece in the style of", file=z)
+                    styles = ["Abstract Art", "Abstract Expressionism", "Academicism", "Analytical Cubism", "Art Deco", "Art Nouveau", "Ashcan School", "Banksy", "Baroque", "Byzantine Art", "Classicism", "Cloisonnism", "Color Field", "Conceptual Art", "Constructivism", "Cubism", "Cubo-Futurism", "Dadaism", "Dutch Golden Age", "Early Netherlandish", "Early Renaissance", "Expressionism", "Fauvism", "Futurism", "Geometric Abstract Art", "Gothic Art", "High Renaissance", "Hudson River School", "Impressionism", "Italian Renaissance", "Kitsch", "Luminism", "Mannerism", "Metaphysical Art", "Minimalism", "Modernism", "Naive Art/ Primitivism", "Neo-Baroque", "Neo-Classicism", "Neo-Dada", "Neo Expressionism", "Neoplasticism", "New Realism", "Northern Renaissance", "Op-Art", "Orientalism", "Orphism", "Pointilism", "Pop Art", "Pop Surrealism", "Post-Impressionism", "Pre-Raphaelites", "Precisionism", "Proto Renaissance", "Purism", "Realism", "Regionalism", "Renaissance", "Rococo", "Romanticism", "Social Realism", "Socialist Realism", "Suprematism", "Surrealism", "Symbolism", "Synthetic Cubism", "Synthetism", "Tenebrism", "Tonalism", "Tubism", "Ukiyo-E", "Verism"]
+                    art = random.sample(styles, 1)
+                    ct = datetime.datetime.now()
+                    arts = "art: "
+                    print(arts, art, ct)
+                    print(usr, arts, art, ct, file=z)
+                    print(usr, arts, art, ct, file=g)
+                    print()
+                    print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
                 if random.choice([True, False]):
                     print("Movement:")
                     print("Movement:", file=z)
+                    time.sleep(3)
                     print()
                     print(file=z)
                     radnti = (random.randint(0,999))
                     opponents = ["You", "Sensei", "Opponent", "Opponent"]
                     opponent = random.sample(opponents, 1)
+                    ct = datetime.datetime.now()
                     karate = "karate: "
-                    print(karate, radnti, opponent)
-                    print(usr, karate, radnti, opponent, file=z)
-                    print(usr, karate, radnti, opponent, file=g)
+                    print(karate, radnti, opponent, ct)
+                    print(usr, karate, radnti, opponent, ct, file=z)
+                    print(usr, karate, radnti, opponent, ct, file=g)   
                     print()
                     print(file=g)   
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
                 if random.choice([True, False]):
                     print("You start to search around for coins...")
                     print(usr + "" + " " + "" + "You start to search around for coins...", file=z)
+                    time.sleep(10)
                     print("You found:")
                     print("You found:", file=z)
                     tin = (random.randint(0,100))
+                    ct = datetime.datetime.now()
                     coins = "coins: "
-                    print(coins, tin)
-                    print(usr, coins, tin, file=z)
-                    print(usr, coins, tin, file=g)
+                    print(coins, tin, ct)
+                    print(usr, coins, tin, ct, file=z)
+                    print(usr, coins, tin, ct, file=g)  
                     print()
                     print(file=g)
+
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
                 if random.choice([True, False]):
                     print("You did:")
                     print("You did:", file=z)
+                    time.sleep(5)
                     nums = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 20, 20, 20, 20, 30, 30, 40, 40, 50, 50, 60, 70, 80, 90, 100]
                     num = random.sample(nums, 1)
+                    ct = datetime.datetime.now()
                     train = "train: "
-                    print(train, num)
-                    print(usr, train, num, file=z)
-                    print(usr, train, num, file=g)
+                    print(train, num, ct)
+                    print(usr, train, num, ct, file=z)
+                    print(usr, train, num, ct, file=g)
                     print("push-ups")
                     print("push-ups", file=z)
                     print()
@@ -3235,8 +3447,10 @@ def amror():
         random_letters = generate_random_letters()
         sitch  = (round(random.random()*9999,4))
         kchat = random.sample(nano, random.randint(0,7))
-        print(maroon, random_letters, sitch, kchat, ctm)
-        print(maroon, random_letters, sitch, kchat, ctm, file=g)
+        amtag = "am-tag:"
+        print(amtag, random_letters, sitch, kchat, ctm)
+        print(usr, amtag, random_letters, sitch, kchat, ctm, file=z)
+        print(usr, amtag, random_letters, sitch, kchat, ctm, file=g)
         print()
         print(file=g)
     
@@ -3655,7 +3869,7 @@ def choice():
         if choice == "oscillator" or choice == "oscillate" or choice == "oscill":
             oscillator()
 
-        if choice == "amror" or choice == "game" or choice == "amror game":
+        if choice == "amror" or choice == "game" or choice == "amror game" or choice == "meditation game":
             amror()
 
         if choice == "amsearch" or choice == "amror-search" or choice == "amror search":
