@@ -17,7 +17,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-11.5.1.0 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
+    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-11.5.5.2 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     title3 = " All Rights Reserved - Medicci.ca -"
     cdt = datetime.datetime.now()
@@ -3012,9 +3012,11 @@ def amror():
                     rooms = ["living room", "kitchen", "bedroom", "garden", "patio", "guest room", "garage", "work room", "library", "art room", "meditation room", "bath room", "temple"]
                     micasa = random.sample(rooms, 1)
                     ct = datetime.datetime.now()
-                    print(mic, micasa, ct)
-                    print(usr, mic, micasa, ct, file=z)
-                    print(usr, mic, micasa, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(mic, micasa, ct, group)
+                    print(usr, mic, micasa, ct, group, file=z)
+                    print(usr, mic, micasa, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3026,9 +3028,11 @@ def amror():
                     path = random.sample(paths, 1)
                     ct = datetime.datetime.now()
                     rpg = "rpg: "
-                    print(rpg, path, ct)
-                    print(usr, rpg, path, ct, file=z)
-                    print(usr, rpg, path, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(rpg, path, ct, group)
+                    print(usr, rpg, path, ct, group, file=z)
+                    print(usr, rpg, path, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3041,9 +3045,11 @@ def amror():
                     stuff = (random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd), random.choice(stuffd))
                     stuffs = random.sample(stuff, random.randint(1, 8))
                     ct = datetime.datetime.now()
-                    print(stu, stuffs, ct)
-                    print(usr, stu, stuffs, ct, file=z)
-                    print(usr, stu, stuffs, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(stu, stuffs, ct, group)
+                    print(usr, stu, stuffs, ct, group, file=z)
+                    print(usr, stu, stuffs, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3060,9 +3066,11 @@ def amror():
                     country = random.sample(countries, 1)
                     ct = datetime.datetime.now()
                     fly = "fly: "
-                    print(fly, country, ct)
-                    print(usr, fly, country, ct, file=z)
-                    print(usr, fly, country, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(fly, country, ct, group)
+                    print(usr, fly, country, ct, group, file=z)
+                    print(usr, fly, country, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3095,9 +3103,12 @@ def amror():
                     ct = datetime.datetime.now()
                     print(money, ct)
                     hack = "hack:"
-                    print(hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, ct)
-                    print(usr, hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, ct, file=z)
-                    print(usr, hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(group)
+                    print()
+                    print(usr, hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, ct, group, file=z)
+                    print(usr, hack, youm, country, serv, nega, amdorn, nega, andorm, andg, tidnar, money, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3123,9 +3134,11 @@ def amror():
                     print("And landed in =", file=z)
                     ct = datetime.datetime.now()
                     monopoly = "monopoly: "
-                    print(monopoly, box, ct)
-                    print(usr, monopoly, roll1, roll2, box, ct, file=z)
-                    print(usr, monopoly, roll1, roll2, box, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(monopoly, box, ct, group)
+                    print(usr, monopoly, roll1, roll2, box, ct, group, file=z)
+                    print(usr, monopoly, roll1, roll2, box, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3140,9 +3153,11 @@ def amror():
                     trick = random.sample(tricks, 1)
                     ct = datetime.datetime.now()
                     skate = "skate: "
-                    print(skate, trick, ct)
-                    print(usr, skate, trick, ct, file=z)
-                    print(usr, skate, trick, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(skate, trick, ct, group)
+                    print(usr, skate, trick, ct, group, file=z)
+                    print(usr, skate, trick, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3158,9 +3173,11 @@ def amror():
                     end = random.sample(ending, 1)
                     ct = datetime.datetime.now()
                     haiku = "haiku: "
-                    print(haiku, start, mid, end, ct)
-                    print(usr, haiku, start, mid, end, ct, file=z)
-                    print(usr, haiku, start, mid, end, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(haiku, start, mid, end, ct, group)
+                    print(usr, haiku, start, mid, end, ct, group, file=z)
+                    print(usr, haiku, start, mid, end, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3187,8 +3204,11 @@ def amror():
                     print("percent accuracy", ct)
                     print("percent accuracy", ct, file=z)
                     archery = "archery: "
-                    print(usr, archery, num, raditn, ct, file=z)
-                    print(usr, archery, num, raditn, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(group)
+                    print(usr, archery, num, raditn, ct, group, file=z)
+                    print(usr, archery, num, raditn, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3206,9 +3226,11 @@ def amror():
                     rooms = (round(random.random()*102))
                     ct = datetime.datetime.now()
                     _room = "Room"
-                    print(_entry, gate, phase, _floor, floors, _room, rooms, ct)
-                    print(usr, _entry, gate, phase, _floor, floors, _room, rooms, ct, file=z)
-                    print(usr, _entry, gate, phase, _floor, floors, _room, rooms, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(_entry, gate, phase, _floor, floors, _room, rooms, ct, group)
+                    print(usr, _entry, gate, phase, _floor, floors, _room, rooms, ct, group, file=z)
+                    print(usr, _entry, gate, phase, _floor, floors, _room, rooms, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3222,9 +3244,11 @@ def amror():
                     music = random.sample(genres, 1)
                     ct = datetime.datetime.now()
                     radio = "radio: "
-                    print(radio, music, ct)
-                    print(usr, radio, music, ct, file=z)
-                    print(usr, radio, music, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(radio, music, ct, group)
+                    print(usr, radio, music, ct, group, file=z)
+                    print(usr, radio, music, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3266,9 +3290,11 @@ def amror():
                     print(file=z)
                     ct = datetime.datetime.now()
                     equips = "equips: "
-                    print(equips, head, torso, hand, legs, feet, ct)
-                    print(usr, equips, head, torso, hand, legs, feet, ct, file=z)
-                    print(usr, equips, head, torso, hand, legs, feet, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(equips, head, torso, hand, legs, feet, ct, group)
+                    print(usr, equips, head, torso, hand, legs, feet, ct, group, file=z)
+                    print(usr, equips, head, torso, hand, legs, feet, ct, group,  file=g)
                     print()
                     print(file=g)
 
@@ -3291,8 +3317,11 @@ def amror():
                     ct = datetime.datetime.now()
                     print(randit)
                     print(randit, file=z)
-                    print(usr, brawl, action, person, randit, ct, file=z)
-                    print(usr, brawl, action, person, randit, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(group)
+                    print(usr, brawl, action, person, randit, ct, group, file=z)
+                    print(usr, brawl, action, person, randit, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3304,9 +3333,11 @@ def amror():
                     print("You start to rest...", ct)
                     print(usr + "" + " " + "" + "You start to rest...", ct, file=z)
                     time.sleep(8)
-                    print("You rested", ct)
-                    print(usr + "" + " " + "" + "You rested", ct, file=z)
-                    print(usr + "" + " " + "" + "You rested", ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print("You rested", ct, group)
+                    print(usr + "" + " " + "" + "You rested", ct, group, file=z)
+                    print(usr + "" + " " + "" + "You rested", ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3324,9 +3355,11 @@ def amror():
                     print("You found:")
                     print("You found:", file=z)
                     items = "items: "
-                    print(items, item, ct)
-                    print(usr, items, item, ct, file=z)
-                    print(usr, items, item, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(items, item, ct, group)
+                    print(usr, items, item, ct, group, file=z)
+                    print(usr, items, item, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3340,9 +3373,11 @@ def amror():
                     kick = random.sample(kicks, 1)
                     ct = datetime.datetime.now()
                     spar = "spar: "
-                    print(spar, action, kick, ct)
-                    print(usr, spar, action, kick, ct, file=z)
-                    print(usr, spar, action, kick, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(spar, action, kick, ct, group)
+                    print(usr, spar, action, kick, ct, group, file=z)
+                    print(usr, spar, action, kick, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3354,9 +3389,11 @@ def amror():
                     colors = random.sample(color, 5)
                     ct = datetime.datetime.now()
                     colorkey = "color key: "
-                    print(colorkey, colors, ct)
-                    print(usr, colorkey, colors, ct, file=z)
-                    print(usr, colorkey, colors, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(colorkey, colors, ct, group)
+                    print(usr, colorkey, colors, ct, group, file=z)
+                    print(usr, colorkey, colors, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3370,9 +3407,11 @@ def amror():
                     art = random.sample(styles, 1)
                     ct = datetime.datetime.now()
                     arts = "art: "
-                    print(arts, art, ct)
-                    print(usr, arts, art, ct, file=z)
-                    print(usr, arts, art, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(arts, art, ct, group)
+                    print(usr, arts, art, ct, group, file=z)
+                    print(usr, arts, art, ct, group, file=g)
                     print()
                     print(file=g)
 
@@ -3390,9 +3429,11 @@ def amror():
                     opponent = random.sample(opponents, 1)
                     ct = datetime.datetime.now()
                     karate = "karate: "
-                    print(karate, radnti, opponent, ct)
-                    print(usr, karate, radnti, opponent, ct, file=z)
-                    print(usr, karate, radnti, opponent, ct, file=g)   
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(karate, radnti, opponent, ct, group)
+                    print(usr, karate, radnti, opponent, ct, group, file=z)
+                    print(usr, karate, radnti, opponent, ct, group, file=g)   
                     print()
                     print(file=g)   
 
@@ -3408,9 +3449,11 @@ def amror():
                     tin = (random.randint(0,100))
                     ct = datetime.datetime.now()
                     coins = "coins: "
-                    print(coins, tin, ct)
-                    print(usr, coins, tin, ct, file=z)
-                    print(usr, coins, tin, ct, file=g)  
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(coins, tin, ct, group)
+                    print(usr, coins, tin, ct, group, file=z)
+                    print(usr, coins, tin, ct, group, file=g)  
                     print()
                     print(file=g)
 
@@ -3425,9 +3468,11 @@ def amror():
                     num = random.sample(nums, 1)
                     ct = datetime.datetime.now()
                     train = "train: "
-                    print(train, num, ct)
-                    print(usr, train, num, ct, file=z)
-                    print(usr, train, num, ct, file=g)
+                    groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+                    group = random.sample(groups, 1)
+                    print(train, num, ct, group)
+                    print(usr, train, num, ct, group, file=z)
+                    print(usr, train, num, ct, group, file=g)
                     print("push-ups")
                     print("push-ups", file=z)
                     print()
@@ -3448,9 +3493,11 @@ def amror():
         sitch  = (round(random.random()*9999,4))
         kchat = random.sample(nano, random.randint(0,7))
         amtag = "am-tag:"
-        print(amtag, random_letters, sitch, kchat, ctm)
-        print(usr, amtag, random_letters, sitch, kchat, ctm, file=z)
-        print(usr, amtag, random_letters, sitch, kchat, ctm, file=g)
+        groups = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5"]
+        group = random.sample(groups, 1)
+        print(amtag, random_letters, sitch, kchat, ctm, group)
+        print(usr, amtag, random_letters, sitch, kchat, ctm, group, file=z)
+        print(usr, amtag, random_letters, sitch, kchat, ctm, group, file=g)
         print()
         print(file=g)
     
