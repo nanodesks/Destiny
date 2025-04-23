@@ -19,7 +19,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-14.0.1.2 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
+    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-14.3.4.3 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     title3 = " All Rights Reserved - Medicci.ca -"
     cdt = datetime.datetime.now()
@@ -244,8 +244,8 @@ def search():
                 print('Line:', line)
 
 def msearch():
-    folder = input("folder (foldername followed by a slash or leave blank): ")
     zen = input("Monitor-Search: ")
+    folder = input("folder (foldername followed by a slash or leave blank): ")
     print()
     print(file=z)
     with open(folder + "" + r"monitor-logs.txt", 'r') as fp:
@@ -257,8 +257,8 @@ def msearch():
                 print('Line:', line)
 
 def asearch():
-    folder = input("folder (foldername followed by a slash or leave blank): ")
     zen = input("acad-monitor-search: ")
+    folder = input("folder (foldername followed by a slash or leave blank): ")
     print()
     print(file=z)
     with open(folder + "" + r"a-monitor-logs.txt", 'r') as fp:
@@ -504,7 +504,6 @@ def degree():
     print(file=z)
     print(bu)
     print(bu, file=z)
-
 
 def biology():
     while True:
@@ -2227,7 +2226,9 @@ def IDC():
     print(usr, IDC, log, ct, file=z)
 
 def weapon_start():
-    def random_function():
+    print("Ctrl+C to stop")
+    print()
+    def generate_random_result():
         nano = (diction)
         letters1 = ["A", "a", "B", "b", "C", "c", "D", "d", "E", "e", "F", "f", "G", "g", "H", "h", "I", "i", "J", "j", "K", "k", "L", "l", "M", "m", "N", "n", "O", "o", "P", "p", "Q", "q", "R", "r", "S", "s", "T", "t", "U", "u", "V", "v", "W", "w", "X", "x", "Y", "y", "Z", "z"]
         letters2 = ["A", "a", "B", "b", "C", "c", "D", "d", "E", "e", "F", "f", "G", "g", "H", "h", "I", "i", "J", "j", "K", "k", "L", "l", "M", "m", "N", "n", "O", "o", "P", "p", "Q", "q", "R", "r", "S", "s", "T", "t", "U", "u", "V", "v", "W", "w", "X", "x", "Y", "y", "Z", "z"]
@@ -2287,13 +2288,16 @@ def weapon_start():
         print()
         print("--------------------------------------------")
 
-    def call_random_function():
+    def main_loop():
         while True:
             time.sleep(.3)
-            random_function()
+            generate_random_result()
 
-    if __name__ == '__main__':
-        threading.Thread(target=call_random_function).start()
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
 
 def speak(text):
     """Use espeak for offline text-to-speech."""
@@ -2318,9 +2322,12 @@ def call():
     print(usr, monitor, ct)
     print(usr, monitor, ct, file=z)
     print(usr, monitor, ct, file=c)
-    print("*this saves to call-logs.txt*")
+    print()
+    print(file=z)
+    print("*this saves to call-logs.txt* Ctrl+C to stop")
+    print()
     print(file=c)
-    def random_function():
+    def generate_random_result():
         ctm = datetime.datetime.now()
         def generate_random_letters():
             random1 = random.choice(string.ascii_letters)
@@ -2339,16 +2346,19 @@ def call():
         print()
         print(file=c)
     
-    def call_random_function():
+    def main_loop():
         while True:
             time.sleep(random.randint(0,5))
             integer = (round(random.random()*25))
             if integer > 15:
                 if random.choice([True, False]):
-                    random_function()
+                    generate_random_result()
 
-    if __name__ == '__main__':
-        threading.Thread(target=call_random_function).start()
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
 
 def monitor_start():
     maroon = "^m^"
@@ -2359,9 +2369,12 @@ def monitor_start():
     print(usr, monitor, ct)
     print(usr, monitor, ct, file=z)
     print(usr, monitor, ct, file=m)
-    print("*this saves to monitor-logs.txt*")
+    print()
+    print(file=z)
+    print("*this saves to monitor-logs.txt* Ctrl+C to stop")
+    print()
     print(file=m)
-    def random_function():
+    def generate_random_result():
         ctm = datetime.datetime.now()
         def generate_random_letters():
             random1 = random.choice(string.ascii_letters)
@@ -2376,17 +2389,20 @@ def monitor_start():
         print(maroon, random_letters, sitch, kchat, ctm, file=m)
         print()
         print(file=m)
-    
-    def call_random_function():
+
+    def main_loop():
         while True:
             time.sleep(random.randint(0,5))
             integer = (round(random.random()*25))
             if integer > 15:
                 if random.choice([True, False]):
-                    random_function()
+                    generate_random_result()
 
-    if __name__ == '__main__':
-        threading.Thread(target=call_random_function).start()
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
 
 def acad_monitor():
     maroon = "^m^"
@@ -2398,9 +2414,12 @@ def acad_monitor():
     print(usr, monitor, ct)
     print(usr, monitor, ct, file=z)
     print(usr, monitor, ct, file=a)
-    print("*this saves to a-monitor-logs.txt*")
+    print()
+    print(file=z)
+    print("*this saves to a-monitor-logs.txt* Ctrl+C to stop")
+    print()
     print(file=a)
-    def random_function():
+    def generate_random_result():
         ctm = datetime.datetime.now()
         def generate_random_letters():
             random1 = random.choice(string.ascii_letters)
@@ -2419,18 +2438,20 @@ def acad_monitor():
         print("_______________________________________", file=a)
         print()
         print(file=a)
-    
-    def call_random_function():
+
+    def main_loop():
         while True:
             time.sleep(random.randint(0,14))
             integer = (round(random.random()*25))
             if integer > 15:
                 if random.choice([True, False]):
-                    random_function()
-
-    if __name__ == '__main__':
-        threading.Thread(target=call_random_function).start()
-
+                    generate_random_result()
+    
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
 
 def msgs():
     while True:
@@ -2770,7 +2791,9 @@ def MAI():
 
 def kiomai():
     import time
-    def random_function():
+    print("Ctrl+C to stop")
+    print()
+    def generate_random_result():
         time.sleep(1.5)
         print()
         print(file=z)
@@ -2917,12 +2940,15 @@ def kiomai():
                         print(file=z)
                         time.sleep(.5)
 
-    def call_random_function():
+    def main_loop():
         while True:
-            random_function()
+            generate_random_result()
 
-    if __name__ == '__main__':
-        threading.Thread(target=call_random_function).start()
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
 
 def frames():
     b = open("D-frames-logs.txt", "a", buffering=1)
@@ -3025,19 +3051,24 @@ def fsearch():
         print(f"An error occurred: {e}")
 
 def oscillator():
-    def random_function():
+    print("Ctrl+C to stop")
+    print()
+    def generate_random_result():
         meter = ["                              ", "*                             ", " *                            ", "  *                           ", "   *                          ", "    *                         ", "     *                        ", "      *                       ", "       *                      ", "        *                     ", "         *                    ", "          *                   ", "           *                  ", "            *                 ", "             *                ", "              *               ", "               *              ", "                *             ", "                 *            ", "                  *           ", "                   *          ", "                    *         ", "                     *        ", "                      *       ", "                       *      ", "                        *     ", "                         *    ", "                          *   ", "                           *  ", "                            * ", "                             *"]
         oscill = random.sample(meter, 1)
         print(oscill)
-    def call_random_function():
+    def main_loop():
         while True:
             time.sleep(.1)
             integer = (round(random.random()*5))
             if integer > 2:
-                random_function()
+                generate_random_result()
 
-    if __name__ == '__main__':
-        threading.Thread(target=call_random_function).start()
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
 
 def amror():
     nano = (diction)
@@ -3047,9 +3078,12 @@ def amror():
     print(usr, monitor, ct)
     print(usr, monitor, ct, file=z)
     print(usr, monitor, ct, file=g)
-    print("*this saves to amror-logs.txt*")
+    print()
+    print(file=z)
+    print("*this saves to amror-logs.txt* Ctrl+C to stop")
+    print()
     print(file=g)
-    def random_function():
+    def generate_random_result():
         if True:
             integer = (round(random.random()*25))
             if integer > 20:
@@ -3524,7 +3558,7 @@ def amror():
                     print()
                     print(file=g)
 
-    def random_function2():
+    def generate_random_result2():
         maroon = "^m^"
         ctm = datetime.datetime.now()
         def generate_random_letters():
@@ -3546,20 +3580,23 @@ def amror():
         print()
         print(file=g)
     
-    def call_random_function():
+    def main_loop():
         while True:
             time.sleep(random.randint(0,5))
             integer = (round(random.random()*25))
             integer2 = (round(random.random()*25))
             if integer > 15:
                 if random.choice([True, False]):
-                    random_function()
+                    generate_random_result()
             if integer2 > 15:
                 if random.choice([True, False]):
-                    random_function2()
-
-    if __name__ == '__main__':
-        threading.Thread(target=call_random_function).start()
+                    generate_random_result2()
+    
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
 
 def burner():
     nano = (diction)
@@ -3569,9 +3606,12 @@ def burner():
     print(usr, monitor, ct)
     print(usr, monitor, ct, file=z)
     print(usr, monitor, ct, file=x)
-    print("*this saves to burner-log.txt*")
+    print()
+    print(file=z)
+    print("*this saves to burner-log.txt* Ctrl+C to stop")
+    print()
     print(file=x)
-    def random_function():
+    def generate_random_result():
         ctm = datetime.datetime.now()
         def generate_random_letters():
             random1 = random.choice(string.ascii_letters)
@@ -3602,16 +3642,19 @@ def burner():
         print(ctm, random_letters, sitch, kchat)
         print(ctm, random_letters, sitch, kchat, file=x)
     
-    def call_random_function():
+    def main_loop():
         while True:
             time.sleep(random.randint(0,1))
             integer = (round(random.random()*10))
             if integer > 5:
                 if random.choice([True, False]):
-                    random_function()
+                    generate_random_result()
 
-    if __name__ == '__main__':
-        threading.Thread(target=call_random_function).start()
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
 
 
 
