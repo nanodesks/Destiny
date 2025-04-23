@@ -3,6 +3,8 @@ import time
 import datetime
 import string
 import threading
+import subprocess
+import platform
 
 print()
 def set_usr(newUsr):
@@ -17,7 +19,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-12.0.0.1 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
+    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-14.0.1.2 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     title3 = " All Rights Reserved - Medicci.ca -"
     cdt = datetime.datetime.now()
@@ -121,7 +123,7 @@ def commands():
     print()
     print(" version | [blank input] for nano | profile | note / journal / save | search")
     print()
-    print(" | message [lh], [echo], [fuzz], alerts, light incense, prayer, dhammapada, message-scan [scan], ascii, ascii search [ascsearch/asc], archery, value, tag / atag, map, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], Medicals (M), Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), chemistry (ch), legal terms (Law), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI], frames [fps], frames search [fsearch], police (prad), burner-start [burn], KIOMAI [kiomai], CAI Environments (CAI/GES), amror (meditation game), amror-search [amsearch]") 
+    print(" | call, message [lh], [echo], [fuzz], alerts, light incense, prayer, dhammapada, message-scan [scan], ascii, ascii search [ascsearch/asc], archery, value, tag / atag, map, monitor-start [mstart], acad-monitor (astart), weapon start [wstart], oscillator [oscill], Medicals (M), Earth Science (SCI), psychology (psyc), Patient Simu, biology (B), chemistry (ch), legal terms (Law), change username [username/user], print time, (ai) auto-mat [AAM], [ID / IDC], the heart sutra, herbs/herbals, degree/major, MedProc AI [MAI], frames [fps], frames search [fsearch], police (prad), burner-start [burn], KIOMAI [kiomai], CAI Environments (CAI/GES), amror (meditation game), amror-search [amsearch]") 
     print()
     print(" | pray, sleep, eat, meditate, draw card, slot, find coins, search for items, fly, drink coffee, drink tea, surf, skate, art, give alms, radio, hack, brawl, souls, hipster tarot, mp3, spar, train, rest, psalms, haiku, karate, koans, equips, rpg, color key, doodling, BUMP, MA, Magic, zen melody, monopoly, stats, progress, collections, football, c, entry, posting, koran, heBrews, Clearance, MiCasa, stuff, worship, License, climb, teletubby, {[muslim prayer] fajr (before dawn) / dhuhr (noon) / asr (late afternoon) / maghrib (at sunset) / isha (nighttime)}, monitor-search [msearch], acad-search [asearch]")
 
@@ -2293,6 +2295,61 @@ def weapon_start():
     if __name__ == '__main__':
         threading.Thread(target=call_random_function).start()
 
+def speak(text):
+    """Use espeak for offline text-to-speech."""
+    try:
+        if platform.system() == "Windows":
+            # On Windows, espeak may be installed separately and available as 'espeak'
+            subprocess.run(["espeak", text], check=True)
+        else:
+            # On Linux/macOS, espeak is typically available as 'espeak'
+            subprocess.run(["espeak", text], check=True)
+    except FileNotFoundError:
+        print("espeak not found. Please install dependency 'espeak' for text-to-speech.")
+    except subprocess.CalledProcessError as e:
+        print(f"Text-to-speech error: {e}")
+
+def call():
+    maroon = "^m^"
+    nano = (diction)
+    c = open("call-logs.txt", "a", buffering=1)
+    ct = datetime.datetime.now()
+    monitor = "call-start:"
+    print(usr, monitor, ct)
+    print(usr, monitor, ct, file=z)
+    print(usr, monitor, ct, file=c)
+    print("*this saves to call-logs.txt*")
+    print(file=c)
+    def random_function():
+        ctm = datetime.datetime.now()
+        def generate_random_letters():
+            random1 = random.choice(string.ascii_letters)
+            random2 = random.choice(string.ascii_letters)
+            random3 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3]
+            return letters
+        random_letters = generate_random_letters()
+        sitch  = (round(random.random()*9999,4))
+        kchat = random.sample(nano, random.randint(1,7))
+        print(maroon, random_letters, sitch, kchat, ctm)
+        print(maroon, random_letters, sitch, kchat, ctm, file=c)
+        random_result = [random.choice(nano)]
+        result_text = ", ".join(random_result)
+        speak(result_text)
+        print()
+        print(file=c)
+    
+    def call_random_function():
+        while True:
+            time.sleep(random.randint(0,5))
+            integer = (round(random.random()*25))
+            if integer > 15:
+                if random.choice([True, False]):
+                    random_function()
+
+    if __name__ == '__main__':
+        threading.Thread(target=call_random_function).start()
+
 def monitor_start():
     maroon = "^m^"
     nano = (diction)
@@ -2357,7 +2414,7 @@ def acad_monitor():
         kchat = random.sample(nano, random.randint(1,7))
         kchat2 = random.sample(acad, random.randint(1,7))
         print(maroon, random_letters, sitch, kchat, kchat2, ctm)
-        print(maroon, random_letters, sitch, kchat2, kchat2, ctm, file=a)
+        print(maroon, random_letters, sitch, kchat, kchat2, ctm, file=a)
         print("_______________________________________")
         print("_______________________________________", file=a)
         print()
@@ -2373,6 +2430,7 @@ def acad_monitor():
 
     if __name__ == '__main__':
         threading.Thread(target=call_random_function).start()
+
 
 def msgs():
     while True:
@@ -3559,7 +3617,7 @@ def burner():
 
 def choice():
     choice = ''
-    while choice !='pray' and choice !='slot' and choice !='search for items' and choice !='surf' and choice !='sleep' and choice !='eat' and choice !='meditate' and choice !='find coins' and choice !='draw card' and choice !='fly' and choice !='drink coffee' and choice !='drink tea' and choice !='surf' and choice !='dhammapada' and choice !='skate' and choice !='art' and choice !='give alms' and choice !='radio' and choice !='hack' and choice !='message' and choice !='brawl' and choice !='souls'and choice !='hipster tarot' and choice !='mp3' and choice !='spar' and choice !='train' and choice !='rest' and choice !='psalms' and choice !='haiku' and choice !='muslim prayer' and choice !='karate' and choice !='koans' and choice !='equips' and choice !='rpg' and choice !='archery' and choice !='color key' and choice !='doodling' and choice !='BUMP' and choice !='MA' and choice !='Magic' and choice !='commands' and choice !='ascii' and choice !='zen melody' and choice !='monopoly' and choice !='light incense' and choice  !='stats' and choice !='prayer' and choice !='progress' and choice !='collections' and choice !='football' and choice !='c' and choice !='map' and choice !='search' and choice !='print time' and choice !='entry' and choice !='posting' and choice !='koran' and choice !='heBrews' and choice !='Medicals' and choice !='M' and choice !='Clearance' and choice !='MiCasa' and choice !='stuff' and choice !='worship' and choice !='Earth Science' and choice !='SCI' and choice !='value' and choice !='psychology' and choice !='psyc' and choice !='Patient Simu' and choice !='biology' and choice !='B' and choice !='legal terms' and choice !='Law' and choice !='the heart sutra' and choice !='License' and choice !='police' and choice !='prad' and choice !='climb' and choice !='chemistry' and choice !='ch' and choice !='weapon start' and choice !='wstart' and choice !='teletubby' and choice !='note' and choice !='save' and choice !='journal' and choice !='version' and choice !='ai' and choice !='auto-mat' and choice !='AAM' and choice !='ID' and choice !='IDC' and choice !='echo' and choice !='monitor-start' and choice !='mstart' and choice !='change username' and choice !='username' and choice !='user' and choice !='fuzz' and choice !='message-scan' and choice !='scan' and choice !='monitor-search' and choice !='msearch' and choice !='tag' and choice !='atag' and choice !='a-tag' and choice !='acad-monitor' and choice !='astart' and choice !='acad-search' and choice !='asearch' and choice !='oscillator' and choice !='oscillate' and choice !='oscill' and choice !='amror' and choice !='game' and choice !='amsearch' and choice !='amror-search' and choice !='amror search' and choice !='profile' and choice !='Profile' and choice !='herbs' and choice !='herbals' and choice !='degree' and choice !='degrees' and choice !='major' and choice !='majors' and choice !='MedProc AI' and choice !='MAI' and choice !='frames' and choice !='fsearch' and choice !='ascsearch' and choice !='alerts' and choice !='Alerts' and choice !='burner-start' and choice !='burner start' and choice !='burner' and choice !='burn' and choice !='kiomai' and choice !='KIOMAI' and choice !='GES':
+    while choice !='pray' and choice !='slot' and choice !='search for items' and choice !='surf' and choice !='sleep' and choice !='eat' and choice !='meditate' and choice !='find coins' and choice !='draw card' and choice !='fly' and choice !='drink coffee' and choice !='drink tea' and choice !='surf' and choice !='dhammapada' and choice !='skate' and choice !='art' and choice !='give alms' and choice !='radio' and choice !='hack' and choice !='message' and choice !='brawl' and choice !='souls'and choice !='hipster tarot' and choice !='mp3' and choice !='spar' and choice !='train' and choice !='rest' and choice !='psalms' and choice !='haiku' and choice !='muslim prayer' and choice !='karate' and choice !='koans' and choice !='equips' and choice !='rpg' and choice !='archery' and choice !='color key' and choice !='doodling' and choice !='BUMP' and choice !='MA' and choice !='Magic' and choice !='commands' and choice !='ascii' and choice !='zen melody' and choice !='monopoly' and choice !='light incense' and choice  !='stats' and choice !='prayer' and choice !='progress' and choice !='collections' and choice !='football' and choice !='c' and choice !='map' and choice !='search' and choice !='print time' and choice !='entry' and choice !='posting' and choice !='koran' and choice !='heBrews' and choice !='Medicals' and choice !='M' and choice !='Clearance' and choice !='MiCasa' and choice !='stuff' and choice !='worship' and choice !='Earth Science' and choice !='SCI' and choice !='value' and choice !='psychology' and choice !='psyc' and choice !='Patient Simu' and choice !='biology' and choice !='B' and choice !='legal terms' and choice !='Law' and choice !='the heart sutra' and choice !='License' and choice !='police' and choice !='prad' and choice !='climb' and choice !='chemistry' and choice !='ch' and choice !='weapon start' and choice !='wstart' and choice !='teletubby' and choice !='note' and choice !='save' and choice !='journal' and choice !='version' and choice !='ai' and choice !='auto-mat' and choice !='AAM' and choice !='ID' and choice !='IDC' and choice !='echo' and choice !='monitor-start' and choice !='mstart' and choice !='change username' and choice !='username' and choice !='user' and choice !='fuzz' and choice !='message-scan' and choice !='scan' and choice !='monitor-search' and choice !='msearch' and choice !='tag' and choice !='atag' and choice !='a-tag' and choice !='acad-monitor' and choice !='astart' and choice !='acad-search' and choice !='asearch' and choice !='oscillator' and choice !='oscillate' and choice !='oscill' and choice !='amror' and choice !='game' and choice !='amsearch' and choice !='amror-search' and choice !='amror search' and choice !='profile' and choice !='Profile' and choice !='herbs' and choice !='herbals' and choice !='degree' and choice !='degrees' and choice !='major' and choice !='majors' and choice !='MedProc AI' and choice !='MAI' and choice !='frames' and choice !='fsearch' and choice !='ascsearch' and choice !='alerts' and choice !='Alerts' and choice !='burner-start' and choice !='burner start' and choice !='burner' and choice !='burn' and choice !='kiomai' and choice !='KIOMAI' and choice !='GES' and choice !='call':
         print()
         print(file=z)
         choice = input(usr)
@@ -3867,6 +3925,9 @@ def choice():
         if choice == "weapon start" or choice == "wstart":
             weapon_start()
 
+        if choice == "call":
+            call()
+
         if choice == "monitor-start" or choice == "mstart":
             monitor_start()
 
@@ -3922,6 +3983,7 @@ m.close()
 a.close()
 b.close()
 x.close()
+c.close()
 
 
 
