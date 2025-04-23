@@ -22,7 +22,7 @@ you must have Python 3 installed then run this command in your terminal:
 
 "python3 Destiny.py" (you must be in the same folder as the Destiny.py file)
 
-Functions: 
+# Functions: 
 
   version | [blank input] for nano | profile | note / journal / save | search
 
