@@ -10,7 +10,7 @@ NEW: Destiny Radio 1.1 (radioDestiny.py)
   
   to run type command: python3 radioDestiny.py
 
-A Life game, created by Akira P. Liwanag -  Incubator Studios, Outbeat Production
+# A Life game, created by Akira P. Liwanag -  Incubator Studios, Outbeat Production
 
 "Like ripples in a pond when a rock is thrown.."
 
