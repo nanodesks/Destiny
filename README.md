@@ -6,7 +6,7 @@ NEW: Destiny Radio 1.1 (radioDestiny.py)
   
   to install on Linux/MacOS type command: sudo apt install espeak
   
-  to install on termux type command: pkg install espeak
+  to install on Termux type command: pkg install espeak
   
   to run type command: python3 radioDestiny.py
 
