@@ -1,9 +1,13 @@
 # Destiny
 
 NEW: Destiny Radio 1.1 (radioDestiny.py)
+
   uses dependency 'espeak'
+  
   to install on Linux/MacOS type command: sudo apt install espeak
+  
   to install on termux type command: pkg install espeak
+  
   to run type command: python3 radioDestiny.py
 
 A Life game, created by Akira P. Liwanag -  Incubator Studios, Outbeat Production
