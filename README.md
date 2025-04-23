@@ -8,7 +8,7 @@ NEW: Destiny Radio 1.1 (radioDestiny.py)
   
   to install on Termux type command: pkg install espeak
   
-   - select Termux in Never Sleeping Apps<Background Usage Limits<Battery and check Background Processes on Developer Options in Android. Disabling Lockscreen for a maximum time and enabling Speech when screen is off also helps to keep the audio running smoothly.
+   - select Termux in Never Sleeping Apps<Background Usage Limits<Battery and check Background Processes on Developer Options in Android. Disabling Lockscreen for a maximum time and enabling Speech when screen is off also helps to keep the audio running smoothly. Hack: Playing audio on Spotify enables it to run /unhindered/.
   
   to run type command: python3 radioDestiny.py
 
