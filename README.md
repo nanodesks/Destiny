@@ -8,7 +8,7 @@ NEW: Destiny Radio 1.1 (radioDestiny.py)
   
   to install on Termux type command: pkg install espeak
   
-   - select Termux in Never Sleeping Apps<Background Usage Limits<Battery and check Background Processes on Developer Options in Android /
+   - select Termux in Never Sleeping Apps<Background Usage Limits<Battery and check Background Processes on Developer Options in Android
   
   to run type command: python3 radioDestiny.py
 
