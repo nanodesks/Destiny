@@ -1,4 +1,6 @@
 # Destiny
+web-app: https://nanodesks.pyscriptapps.com/destiny/latest
+
 Update: Now you can access a version of Destiny Radio in Destiny.py as the function 'call'
 
 NEW: Destiny Radio 1.1 (radioDestiny.py)
@@ -38,4 +40,4 @@ Indicative: @USVirtualUni && © Medicine, Computable (N_2025)
 
 All Rights Reserved - medicci.ca -
 
-WEB-APP : https://akiraliwanag.pyscriptapps.com/destiny/latest Destiny.nano : https://nanodesks.github.io @USVirtualUni : https://x.com/USVirtualUni
+WEB-APP : https://nanodesks.pyscriptapps.com/destiny/latest Destiny.nano : https://nanodesks.github.io @USVirtualUni : https://x.com/USVirtualUni
