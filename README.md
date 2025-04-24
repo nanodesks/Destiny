@@ -1,4 +1,5 @@
 # Destiny
+Update: Now you can access a version of Destiny Radio in Destiny.py as the function 'call'
 
 NEW: Destiny Radio 1.1 (radioDestiny.py)
 
