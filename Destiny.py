@@ -3610,7 +3610,7 @@ def burner():
     monitor = "burner-start:"
     print(usr, monitor, title, ct)
     print(usr, monitor, title, ct, file=z)
-    print(usr, monitor, tile, ct, file=x)
+    print(usr, monitor, title, ct, file=x)
     print()
     print(file=z)
     print("*this saves to burner-log.txt* Ctrl+C to stop")
