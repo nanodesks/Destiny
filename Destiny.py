@@ -19,7 +19,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-14.3.4.3 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
+    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-14.3.6.2 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     title3 = " All Rights Reserved - Medicci.ca -"
     cdt = datetime.datetime.now()
@@ -2316,12 +2316,13 @@ def speak(text):
 def call():
     maroon = "^m^"
     nano = (diction)
+    title = input("call name: ")
     c = open("call-logs.txt", "a", buffering=1)
     ct = datetime.datetime.now()
     monitor = "call-start:"
-    print(usr, monitor, ct)
-    print(usr, monitor, ct, file=z)
-    print(usr, monitor, ct, file=c)
+    print(usr, monitor, title, ct)
+    print(usr, monitor, title, ct, file=z)
+    print(usr, monitor, title, ct, file=c)
     print()
     print(file=z)
     print("*this saves to call-logs.txt* Ctrl+C to stop")
@@ -2363,12 +2364,13 @@ def call():
 def monitor_start():
     maroon = "^m^"
     nano = (diction)
+    title = input("monitor name: ")
     m = open("monitor-logs.txt", "a", buffering=1)
     ct = datetime.datetime.now()
     monitor = "monitor-start:"
-    print(usr, monitor, ct)
-    print(usr, monitor, ct, file=z)
-    print(usr, monitor, ct, file=m)
+    print(usr, monitor, title, ct)
+    print(usr, monitor, title, ct, file=z)
+    print(usr, monitor, title, ct, file=m)
     print()
     print(file=z)
     print("*this saves to monitor-logs.txt* Ctrl+C to stop")
@@ -2408,12 +2410,13 @@ def acad_monitor():
     maroon = "^m^"
     nano = (diction)
     acad = (acadlist)
+    title = input("a-monitor name: ")
     a = open("a-monitor-logs.txt", "a", buffering=1)
     ct = datetime.datetime.now()
     monitor = "acad-monitor-start:"
-    print(usr, monitor, ct)
-    print(usr, monitor, ct, file=z)
-    print(usr, monitor, ct, file=a)
+    print(usr, monitor, title, ct)
+    print(usr, monitor, title, ct, file=z)
+    print(usr, monitor, title, ct, file=a)
     print()
     print(file=z)
     print("*this saves to a-monitor-logs.txt* Ctrl+C to stop")
@@ -3072,12 +3075,13 @@ def oscillator():
 
 def amror():
     nano = (diction)
+    title = input("Amror session name: ")
     g = open("amror-logs.txt", "a", buffering=1)
     ct = datetime.datetime.now()
     monitor = "amror-start:"
-    print(usr, monitor, ct)
-    print(usr, monitor, ct, file=z)
-    print(usr, monitor, ct, file=g)
+    print(usr, monitor, title, ct)
+    print(usr, monitor, title, ct, file=z)
+    print(usr, monitor, title, ct, file=g)
     print()
     print(file=z)
     print("*this saves to amror-logs.txt* Ctrl+C to stop")
