@@ -3604,12 +3604,13 @@ def amror():
 
 def burner():
     nano = (diction)
+    title = input("burn name: ")
     x = open("burner-log.txt", "a", buffering=1)
     ct = datetime.datetime.now()
     monitor = "burner-start:"
-    print(usr, monitor, ct)
-    print(usr, monitor, ct, file=z)
-    print(usr, monitor, ct, file=x)
+    print(usr, monitor, title, ct)
+    print(usr, monitor, title, ct, file=z)
+    print(usr, monitor, tile, ct, file=x)
     print()
     print(file=z)
     print("*this saves to burner-log.txt* Ctrl+C to stop")
