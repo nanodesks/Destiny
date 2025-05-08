@@ -19,7 +19,7 @@ print("[This saves to DESTINY-logs.txt]")
 print()
 print(file=z)
 def version():
-    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-14.3.6.2 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
+    title =  usr + "" + " " + "" + ">>> I.S. (Incubator Studios) Outbeat Produce: Destiny-14.5.0.0 'pocket uni-verse' by A.A.P.L. - Established Lpro.py (Life-pro) [2024]"
     title2 = "| Indicative: @USVirtualUni && © Medicine, Computable (N_2025) |"
     title3 = " All Rights Reserved - Medicci.ca -"
     cdt = datetime.datetime.now()
@@ -2456,6 +2456,61 @@ def acad_monitor():
         except KeyboardInterrupt:
             print("\nStopped by user.")
 
+def time_monitor():
+    maroon = "^m^"
+    nano = (diction)
+    acad = (acadlist)
+    title = input("t-monitor name: ")
+    while True:
+        try:
+            buffer = int(input("time-buffer in seconds: "))
+        except ValueError:
+            print("Invalid value")
+        else:
+            break
+    buffer
+    t = open("t-monitor-logs.txt", "a", buffering=1)
+    ct = datetime.datetime.now()
+    monitor = "time-monitor-start:"
+    print(usr, monitor, title, ct)
+    print(usr, monitor, title, ct, file=z)
+    print(usr, monitor, title, ct, file=t)
+    print()
+    print(file=z)
+    print("*this saves to t-monitor-logs.txt* Ctrl+C to stop")
+    print()
+    print(file=t)
+    def generate_random_result():
+        time.sleep(buffer)
+        ctm = datetime.datetime.now()
+        def generate_random_letters():
+            random1 = random.choice(string.ascii_letters)
+            random2 = random.choice(string.ascii_letters)
+            random3 = random.choice(string.ascii_letters)
+            letters = [random1, random2, random3]
+            random.shuffle(letters)
+            return letters
+        random_letters = generate_random_letters()
+        sitch  = (round(random.random()*9999,4))
+        kchat = random.sample(nano, random.randint(1,7))
+        kchat2 = random.sample(acad, random.randint(1,7))
+        print(maroon, random_letters, sitch, kchat, kchat2, ctm)
+        print(maroon, random_letters, sitch, kchat, kchat2, ctm, file=t)
+        print("_______________________________________")
+        print("_______________________________________", file=t)
+        print()
+        print(file=t)
+
+    def main_loop():
+        while True:
+            generate_random_result()
+    
+    if __name__ == "__main__":
+        try:
+            main_loop()
+        except KeyboardInterrupt:
+            print("\nStopped by user.")
+
 def msgs():
     while True:
         try:
@@ -3665,7 +3720,7 @@ def burner():
 
 def choice():
     choice = ''
-    while choice !='pray' and choice !='slot' and choice !='search for items' and choice !='surf' and choice !='sleep' and choice !='eat' and choice !='meditate' and choice !='find coins' and choice !='draw card' and choice !='fly' and choice !='drink coffee' and choice !='drink tea' and choice !='surf' and choice !='dhammapada' and choice !='skate' and choice !='art' and choice !='give alms' and choice !='radio' and choice !='hack' and choice !='message' and choice !='brawl' and choice !='souls'and choice !='hipster tarot' and choice !='mp3' and choice !='spar' and choice !='train' and choice !='rest' and choice !='psalms' and choice !='haiku' and choice !='muslim prayer' and choice !='karate' and choice !='koans' and choice !='equips' and choice !='rpg' and choice !='archery' and choice !='color key' and choice !='doodling' and choice !='BUMP' and choice !='MA' and choice !='Magic' and choice !='commands' and choice !='ascii' and choice !='zen melody' and choice !='monopoly' and choice !='light incense' and choice  !='stats' and choice !='prayer' and choice !='progress' and choice !='collections' and choice !='football' and choice !='c' and choice !='map' and choice !='search' and choice !='print time' and choice !='entry' and choice !='posting' and choice !='koran' and choice !='heBrews' and choice !='Medicals' and choice !='M' and choice !='Clearance' and choice !='MiCasa' and choice !='stuff' and choice !='worship' and choice !='Earth Science' and choice !='SCI' and choice !='value' and choice !='psychology' and choice !='psyc' and choice !='Patient Simu' and choice !='biology' and choice !='B' and choice !='legal terms' and choice !='Law' and choice !='the heart sutra' and choice !='License' and choice !='police' and choice !='prad' and choice !='climb' and choice !='chemistry' and choice !='ch' and choice !='weapon start' and choice !='wstart' and choice !='teletubby' and choice !='note' and choice !='save' and choice !='journal' and choice !='version' and choice !='ai' and choice !='auto-mat' and choice !='AAM' and choice !='ID' and choice !='IDC' and choice !='echo' and choice !='monitor-start' and choice !='mstart' and choice !='change username' and choice !='username' and choice !='user' and choice !='fuzz' and choice !='message-scan' and choice !='scan' and choice !='monitor-search' and choice !='msearch' and choice !='tag' and choice !='atag' and choice !='a-tag' and choice !='acad-monitor' and choice !='astart' and choice !='acad-search' and choice !='asearch' and choice !='oscillator' and choice !='oscillate' and choice !='oscill' and choice !='amror' and choice !='game' and choice !='amsearch' and choice !='amror-search' and choice !='amror search' and choice !='profile' and choice !='Profile' and choice !='herbs' and choice !='herbals' and choice !='degree' and choice !='degrees' and choice !='major' and choice !='majors' and choice !='MedProc AI' and choice !='MAI' and choice !='frames' and choice !='fsearch' and choice !='ascsearch' and choice !='alerts' and choice !='Alerts' and choice !='burner-start' and choice !='burner start' and choice !='burner' and choice !='burn' and choice !='kiomai' and choice !='KIOMAI' and choice !='GES' and choice !='call':
+    while choice !='pray' and choice !='slot' and choice !='search for items' and choice !='surf' and choice !='sleep' and choice !='eat' and choice !='meditate' and choice !='find coins' and choice !='draw card' and choice !='fly' and choice !='drink coffee' and choice !='drink tea' and choice !='surf' and choice !='dhammapada' and choice !='skate' and choice !='art' and choice !='give alms' and choice !='radio' and choice !='hack' and choice !='message' and choice !='brawl' and choice !='souls'and choice !='hipster tarot' and choice !='mp3' and choice !='spar' and choice !='train' and choice !='rest' and choice !='psalms' and choice !='haiku' and choice !='muslim prayer' and choice !='karate' and choice !='koans' and choice !='equips' and choice !='rpg' and choice !='archery' and choice !='color key' and choice !='doodling' and choice !='BUMP' and choice !='MA' and choice !='Magic' and choice !='commands' and choice !='ascii' and choice !='zen melody' and choice !='monopoly' and choice !='light incense' and choice  !='stats' and choice !='prayer' and choice !='progress' and choice !='collections' and choice !='football' and choice !='c' and choice !='map' and choice !='search' and choice !='print time' and choice !='entry' and choice !='posting' and choice !='koran' and choice !='heBrews' and choice !='Medicals' and choice !='M' and choice !='Clearance' and choice !='MiCasa' and choice !='stuff' and choice !='worship' and choice !='Earth Science' and choice !='SCI' and choice !='value' and choice !='psychology' and choice !='psyc' and choice !='Patient Simu' and choice !='biology' and choice !='B' and choice !='legal terms' and choice !='Law' and choice !='the heart sutra' and choice !='License' and choice !='police' and choice !='prad' and choice !='climb' and choice !='chemistry' and choice !='ch' and choice !='weapon start' and choice !='wstart' and choice !='teletubby' and choice !='note' and choice !='save' and choice !='journal' and choice !='version' and choice !='ai' and choice !='auto-mat' and choice !='AAM' and choice !='ID' and choice !='IDC' and choice !='echo' and choice !='monitor-start' and choice !='mstart' and choice !='change username' and choice !='username' and choice !='user' and choice !='fuzz' and choice !='message-scan' and choice !='scan' and choice !='monitor-search' and choice !='msearch' and choice !='tag' and choice !='atag' and choice !='a-tag' and choice !='acad-monitor' and choice !='astart' and choice !='acad-search' and choice !='asearch' and choice !='oscillator' and choice !='oscillate' and choice !='oscill' and choice !='amror' and choice !='game' and choice !='amsearch' and choice !='amror-search' and choice !='amror search' and choice !='profile' and choice !='Profile' and choice !='herbs' and choice !='herbals' and choice !='degree' and choice !='degrees' and choice !='major' and choice !='majors' and choice !='MedProc AI' and choice !='MAI' and choice !='frames' and choice !='fsearch' and choice !='ascsearch' and choice !='alerts' and choice !='Alerts' and choice !='burner-start' and choice !='burner start' and choice !='burner' and choice !='burn' and choice !='kiomai' and choice !='KIOMAI' and choice !='GES' and choice !='call' and choice !='time-monitor':
         print()
         print(file=z)
         choice = input(usr)
@@ -3982,6 +4037,9 @@ def choice():
         if choice == "acad-monitor" or choice == "astart":
             acad_monitor()
 
+        if choice == "time monitor" or choice == "time-moitor" or choice == "tmonitor" or choice == "t-monitor" or choice == "tm":
+            time_monitor()
+
         if choice == "acad-search" or choice == "asearch":
             asearch()
 
@@ -4032,6 +4090,7 @@ a.close()
 b.close()
 x.close()
 c.close()
+t.close()
 
 
 
