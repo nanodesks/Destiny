@@ -1,9 +1,11 @@
 # Destiny
 web-app: https://nanodesks.pyscriptapps.com/destiny/latest
 
+NEW: SDestiny.py - an Lpro version which does not save to a text file
+
 Update: Now you can access a version of Destiny Radio in Destiny.py as the function 'call'
 
-NEW: Destiny Radio 1.1 (radioDestiny.py)
+Destiny Radio 1.1 (radioDestiny.py)
 
   uses dependency 'espeak'
   
