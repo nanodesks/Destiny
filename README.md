@@ -1,6 +1,11 @@
-# Destiny
-web-app: https://nanodesks.pyscriptapps.com/destiny/latest
+# This project has been renamed Metasci and has since moved to:
+https://github.com/nanodesks/Metasci
 
+
+
+
+
+# Destiny
 NEW: SDestiny.py - an Lpro version which does not save to a text file
 
 Update: Now you can access a version of Destiny Radio in Destiny.py as the function 'call'
