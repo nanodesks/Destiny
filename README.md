@@ -24,14 +24,6 @@ Destiny Radio 1.1 (radioDestiny.py)
 
 # A Life game, created by Akira P. Liwanag -  Incubator Studios, Outbeat Production
 
-"Like ripples in a pond when a rock is thrown.."
-
-Destiny (Destiny.py) is a text-based terminal program in python3 programming language that gives the meta-information of lived experience that utilizes real-life karmic point system to determine the results of a chosen function. It has the aim for personal learning. As it's backbone being based mainly on the Random programming function, it not only successfully makes the concept of being in terms with personal spiritual wealth a solid supporting foundation but also delivers the desired prompt results acutely with the said concept. The program gives the user an interface to interact with personal meta-reality.
-
-you must have Python 3 installed then run this command in your terminal:
-
-"python3 Destiny.py" (you must be in the same folder as the Destiny.py file)
-
 # Functions: 
 
   version | [blank input] for nano | profile | note / journal / save | search
